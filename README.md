@@ -59,12 +59,12 @@ We also note that the optimality of the presented partitions (if they are optima
 
 The four score vectors are rationalized jointly, retaining six compatible
 pairwise interface planes. Vertices, squared distances and volumes are computed
-symbolically in `Q(sqrt(2))`, with exact comparisons.
+symbolically in $`Q(sqrt(2))`$, with exact comparisons.
 
 | Score grid | Proved diameter interval | Status |
 |---|---|---|
-| denominator `10^6` | [0.972881404297868, 0.972881404297869] | Exact four-cell convex partition of the ideal target |
-| denominator `10^12` | [0.972881319605256, 0.972881319605257] | Exact four-cell convex partition of the ideal target |
+| denominator $`10^6`$ | [0.972881404297868, 0.972881404297869] | Exact four-cell convex partition of the ideal target |
+| denominator $`10^{12}`$ | [0.972881319605256, 0.972881319605257] | Exact four-cell convex partition of the ideal target |
 
 These are **new rational approximations of the saved numerical construction**,
 not exact symbolic minimizers of the six-plane optimization problem. The compact
@@ -78,7 +78,7 @@ Decimal display exports have their own point numbering and are not certificates.
 Every supporting facet plane is distance **1/2 from the origin**. 
 
 | Solid | Vertices / faces | Best numerical diameter |  Global optimum proved here? |
-|---|---:|---:|---|---|
+|---|---:|---:|---|
 | 6-TRD | 32 / 18 | 0.963551242457493 |  No |
 | Cube | 8 / 6 | 1.224744871391589 |  No claim |
 | Regular octahedron | 6 / 8 | 1.224744871391589 |  **Yes** |

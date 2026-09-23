@@ -82,9 +82,9 @@ Every supporting facet plane is distance **1/2 from the origin**.
 | 6-TRD | 32 / 18 | 0.963551242457493 |  No |
 | Cube | 8 / 6 | 1.224744871391589 |  No claim |
 | Regular octahedron | 6 / 8 | 1.224744871391589 |  **Yes** |
-| 3-truncated octahedron | 6 / 8 | 0.987727022161782 | No |
+| 3-truncated octahedron | 6 / 8 | **0.987727022161782** | No |
 | Regular dodecahedron | 20 / 12 | 1.044923649675676 |  No |
-| Regular icosahedron | 12 / 20 | 0.927050983124843 | No claim |
+| Regular icosahedron | 12 / 20 | **0.927050983124843** | No claim |
 
 These use 2,000 starts per target, followed by tighter polishing. Numerical
 searches need not preserve a solid's symmetries. All six numerical records also
@@ -211,6 +211,26 @@ See [verification details](docs/VERIFICATION.md).
 All related numerical scripts are kept together in `scripts/` so their local
 imports work without installation. Put new outputs under `runs/`.
 
+### Unrestricted multistart
+
+```bash
+python3 scripts/partitions_slsqp.py \
+ data/three_truncations/best_cover/partition.txt --fixed-count 23 \
+  --starts 10000 --workers 6 --seed 17 --output-dir runs/global
+```
+
+For a fresh diagram-only search on the same target add `--no-initial`. The
+SLSQP stage is convex within a fixed membership/incidence model; exploration
+across models is heuristic. `fixed_pair_pruned` rejects a model whose fixed
+co-hull pair already prevents improvement; it is not a solver failure.
+
+### Six-plane multistart
+
+```bash
+python3 scripts/six_plane_search.py --starts 10000 --workers 6 \
+  --seed 7 --output runs/six_planes
+```
+
 ### 6-TRD and Platonic comparison
 
 ```bash
@@ -249,12 +269,6 @@ the exact JSON constructions are authoritative.
 changes the regular tetrahedron. Best/previous checkpoints from a different
 normalization must not be reused in the same output directory.
 
-### Six-plane multistart
-
-```bash
-python3 scripts/six_plane_search.py --starts 10000 --workers 6 \
-  --seed 7 --output runs/six_planes
-```
 
 ### Release the six-plane restriction
 
@@ -277,19 +291,6 @@ python3 scripts/search_memberships.py \
   --patch-size 4 --split-star-limit 4 --max-candidates 20000 --rounds 3 \
   --output runs/memberships/partition.txt --report runs/memberships/model.json --quiet
 ```
-
-### Unrestricted multistart
-
-```bash
-python3 scripts/partitions_slsqp.py \
- data/three_truncations/best_cover/partition.txt --fixed-count 23 \
-  --starts 10000 --workers 6 --seed 17 --output-dir runs/global
-```
-
-For a fresh diagram-only search on the same target add `--no-initial`. The
-SLSQP stage is convex within a fixed membership/incidence model; exploration
-across models is heuristic. `fixed_pair_pruned` rejects a model whose fixed
-co-hull pair already prevents improvement; it is not a solver failure.
 
 ### Parametric truncations and balance
 

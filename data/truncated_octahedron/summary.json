@@ -1,0 +1,260 @@
+{
+  "target": "Grunbaum 3-truncated regular octahedron",
+  "analytic_target": "|x|+|y|+|z| <= sqrt(3)/2, x<=1/2, y<=1/2, z<=1/2",
+  "normalization": "distance between opposite faces of the untruncated octahedron = 1",
+  "vertex_count": 15,
+  "exact_volume": "5/2 - sqrt(3)",
+  "target_diameter": 1.4142135623730951,
+  "classical_grunbaum_diameter_formula": "sqrt(6129030-937419*sqrt(3))/(1518*sqrt(2))",
+  "classical_grunbaum_diameter": 0.9887320005858876,
+  "search_completed_starts": 6877,
+  "numerical_best_diameter": 0.9877270221617824,
+  "certified_padded_upper_bound": 0.987727022165961,
+  "padding": "1e-12 facet enlargement n.x<=h -> n.x<=h+1e-12||n||_1",
+  "local_fixed_model_lower_bound": {
+    "success": true,
+    "scope": "Fixed memberships, fixed target vertices, and recorded face/edge incidences only.",
+    "tangent_lp_squared_lower": 0.9756046703085803,
+    "residual_corrected_squared_lower": 0.9756046703085799,
+    "squared_numerical_safety_allowance": 1e-11,
+    "diameter_lower_with_allowance": 0.9877270221567191,
+    "diameter_upper": 0.9877270221617823,
+    "diameter_gap_with_allowance": 5.063172103803026e-12,
+    "dual_stationarity_l1_residual": 7.214687831533229e-17,
+    "box_half_width": 5.732050807568878,
+    "distance_dual_weights": [
+      {
+        "pair": [
+          17,
+          22
+        ],
+        "weight": 0.11743964142473193
+      },
+      {
+        "pair": [
+          17,
+          25
+        ],
+        "weight": 0.11743964142472849
+      },
+      {
+        "pair": [
+          18,
+          19
+        ],
+        "weight": 0.13013976779092357
+      },
+      {
+        "pair": [
+          18,
+          21
+        ],
+        "weight": 0.030362992321769113
+      },
+      {
+        "pair": [
+          18,
+          25
+        ],
+        "weight": 0.14627578441464373
+      },
+      {
+        "pair": [
+          18,
+          28
+        ],
+        "weight": 0.01498369978797204
+      },
+      {
+        "pair": [
+          19,
+          28
+        ],
+        "weight": 0.02008924244243011
+      },
+      {
+        "pair": [
+          19,
+          29
+        ],
+        "weight": 0.020089242441949987
+      },
+      {
+        "pair": [
+          19,
+          30
+        ],
+        "weight": 0.1301397677905765
+      },
+      {
+        "pair": [
+          21,
+          25
+        ],
+        "weight": 0.04070887181811229
+      },
+      {
+        "pair": [
+          22,
+          27
+        ],
+        "weight": 0.04070887181811535
+      },
+      {
+        "pair": [
+          22,
+          30
+        ],
+        "weight": 0.14627578441466255
+      },
+      {
+        "pair": [
+          27,
+          30
+        ],
+        "weight": 0.030362992321769488
+      },
+      {
+        "pair": [
+          29,
+          30
+        ],
+        "weight": 0.014983699787614897
+      }
+    ],
+    "target_dual_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "arithmetic_note": "Numerical dual bound with explicit residual correction and safety allowance; not outward-rounded interval arithmetic or a proof about all partitions."
+  },
+  "membership_search": {
+    "candidates": 5573,
+    "duplicates_or_incumbent": 1684,
+    "certificate_rejected": 51,
+    "constraint_superset_pruned": 1782,
+    "tangent_bound_pruned": 15,
+    "fixed_bound_pruned": 3725
+  },
+  "note": "No global optimality claim; cover by four convex hulls, possibly overlapping."
+}

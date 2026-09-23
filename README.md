@@ -75,20 +75,16 @@ Decimal display exports have their own point numbering and are not certificates.
 
 ### Symmetric comparison (four cells, inradius 1/2)
 
-Every supporting facet plane is distance **1/2 from the origin**. This matches
-6-TRD and gives minimum width 1 for the centrally symmetric solids. The regular
-tetrahedron is the exception: its altitude is 2 and its minimum width is sqrt(3).
-`--normalization min-width` rescales the tetrahedron by 1/sqrt(3); the other rows
-are unchanged. Unit tetrahedral altitude would instead divide all lengths by 2.
+Every supporting facet plane is distance **1/2 from the origin**. 
 
-| Solid | Vertices / faces | Best numerical diameter | Independently proved upper bound | Global optimum proved here? |
+| Solid | Vertices / faces | Best numerical diameter |  Global optimum proved here? |
 |---|---:|---:|---|---|
-| 6-TRD | 32 / 18 | 0.963551242457493 | 0.963551242461420 (padded cover) | No |
-| Regular tetrahedron | 4 / 4 | 1.500000000000000 | **3/2**, exact construction | **Yes** |
-| Cube | 8 / 6 | 1.224744871391589 | **sqrt(3/2)**, four rectangular boxes | No claim |
-| Regular octahedron | 6 / 8 | 1.224744871391589 | **sqrt(3/2)**, exact construction | **Yes** |
-| Regular dodecahedron | 20 / 12 | 1.044923649675676 | 1.044923649680310 (padded cover) | No |
-| Regular icosahedron | 12 / 20 | 0.927050983124843 | **3(sqrt(5)-1)/4**, exact cover | No claim |
+| 6-TRD | 32 / 18 | 0.963551242457493 |  No |
+| Cube | 8 / 6 | 1.224744871391589 |  No claim |
+| Regular octahedron | 6 / 8 | 1.224744871391589 |  **Yes** |
+| 3-truncated octahedron | 6 / 8 | 0.987727022161782 | No |
+| Regular dodecahedron | 20 / 12 | 1.044923649675676 |  No |
+| Regular icosahedron | 12 / 20 | 0.927050983124843 | No claim |
 
 These use 2,000 starts per target, followed by tighter polishing. Numerical
 searches need not preserve a solid's symmetries. All six numerical records also
@@ -101,6 +97,7 @@ certificate checks the complete final boundary subdivision in Q(sqrt(5)). It is
 an exact upper bound, not a proved global minimum. It does not by itself make
 the icosahedron a universal container for all unit-diameter sets.
 
+Note that the regular octahedron truncated by three planes can be partitioned slightly better than in the classical works (by approximately 0.001).
 
 See [the normalization, proofs, and formulas](docs/SYMMETRIC_COMPARISON.md),
 [the numerical summary](reports/symmetric_comparison.json), and

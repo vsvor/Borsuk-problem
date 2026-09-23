@@ -1,0 +1,186 @@
+{
+  "regression_tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "extra_checks": {
+    "cli_continuation_reload": "passed",
+    "output_overwrite_guard": "passed; original files unchanged",
+    "independent_union_volume_check": {
+      "dummy": {
+        "target_volume": 0.6699958417779361,
+        "union_volume": 0.6699958417779363,
+        "target_minus_union_volume": -1.1102230246251565e-16,
+        "intersection_volumes": {
+          "0": 0.18368820892566123,
+          "1": 0.17608832627399917,
+          "2": 0.157237812539706,
+          "3": 0.17635551313409378,
+          "0,1": 0.002110472414941003,
+          "0,2": 0.005653880746030542,
+          "0,3": 0.0029060236560793963,
+          "1,2": 0.0016307624230928513,
+          "1,3": 0.004480515665159638,
+          "2,3": 0.0065923641902204365,
+          "0,1,2": 0.0,
+          "0,1,3": 0.0,
+          "0,2,3": 0.0,
+          "1,2,3": 0.0,
+          "0,1,2,3": 0.0
+        },
+        "geometry": {
+          "valid_numerically": true,
+          "max_plane_residual": 1.1102230246251565e-16,
+          "max_outside_plane_violation": 0.0,
+          "max_missing_face_area": 3.9733961921058755e-17,
+          "max_extra_face_area": 5.393640647992902e-17,
+          "coverage_method": "transported_reference_complex",
+          "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+        }
+      },
+      "upper": {
+        "target_volume": 0.661176633296798,
+        "union_volume": 0.6611766332967979,
+        "target_minus_union_volume": 1.1102230246251565e-16,
+        "intersection_volumes": {
+          "0": 0.16920543250122885,
+          "1": 0.1412607905807738,
+          "2": 0.192882697725503,
+          "3": 0.18126621976830742,
+          "0,1": 0.0016906169064133851,
+          "0,2": 0.004898619771266368,
+          "0,3": 0.0056737925226964005,
+          "1,2": 0.006916790096383372,
+          "1,3": 0.0033888112016864677,
+          "2,3": 0.0008698767805693314,
+          "0,1,2": 0.0,
+          "0,1,3": 0.0,
+          "0,2,3": 0.0,
+          "1,2,3": 0.0,
+          "0,1,2,3": 0.0
+        },
+        "geometry": {
+          "valid_numerically": true,
+          "max_plane_residual": 1.1102230246251565e-16,
+          "max_outside_plane_violation": 1.1102230246251565e-16,
+          "max_missing_face_area": 1.3877787807814457e-17,
+          "max_extra_face_area": 1.734723475976807e-17,
+          "coverage_method": "transported_reference_complex",
+          "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+        }
+      }
+    }
+  },
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "shapely": "2.1.2"
+  },
+  "root": {
+    "status": "converged",
+    "delta_bracket": [
+      0.008811423364095392,
+      0.008811423373408615
+    ],
+    "bracket_width": 9.313223803264492e-12,
+    "left": {
+      "delta": 0.008811423364095392,
+      "f_interval": [
+        1.2472245458639009e-12,
+        3.283595617631363e-12
+      ],
+      "dummy_interval": [
+        0.9653991786510919,
+        0.9653991786521101
+      ],
+      "upper_interval": [
+        0.9653991786488265,
+        0.9653991786498447
+      ],
+      "selected_dummy": 0,
+      "selected_upper": 0
+    },
+    "right": {
+      "delta": 0.008811423373408615,
+      "f_interval": [
+        -4.312772361458883e-12,
+        -2.2762902673889585e-12
+      ],
+      "dummy_interval": [
+        0.9653991786475454,
+        0.9653991786485637
+      ],
+      "upper_interval": [
+        0.96539917865084,
+        0.9653991786518582
+      ],
+      "selected_dummy": 0,
+      "selected_upper": 0
+    },
+    "evaluations": 37,
+    "elapsed_seconds": 4.294475587999955,
+    "case": "adjacent",
+    "dummy_a": 0.5,
+    "options": {
+      "maxiter": 1200,
+      "ftol": 1e-13,
+      "diameter_tol": 3e-12,
+      "bound_guard": 1e-12,
+      "upper_guard": 5e-13,
+      "polish_attempts": 3
+    },
+    "source_paths": {
+      "dummy": [
+        "/mnt/data/delta_balance_package/examples/dummy_seed/best.json"
+      ],
+      "upper": [
+        "/mnt/data/delta_balance_package/examples/upper_seed/best.json"
+      ]
+    },
+    "scope": "Root of the two lower envelopes over the supplied membership/incidence models. Not globally optimal over all partitions.",
+    "arithmetic": "Floating-point primal/dual bounds with explicit guards; not exact or outward-rounded interval arithmetic.",
+    "message": "Bracket is for the supplied model pool and uses floating-point primal/dual bounds.",
+    "delta": 0.008811423368752003,
+    "delta_max_bracket_error": 4.656611901632246e-12,
+    "dummy_diameter": 0.9653991786498369,
+    "upper_diameter": 0.9653991786503513,
+    "max_diameter_upper": 0.9653991786508513,
+    "middle": {
+      "delta": 0.008811423368752003,
+      "f_interval": [
+        -1.5326628854950286e-12,
+        5.037081862724335e-13
+      ],
+      "dummy_interval": [
+        0.9653991786493187,
+        0.965399178650337
+      ],
+      "upper_interval": [
+        0.9653991786498333,
+        0.9653991786508513
+      ],
+      "selected_dummy": 0,
+      "selected_upper": 0
+    },
+    "same_rounding_8_decimal_places": true,
+    "same_rounding_8_significant_digits": true
+  },
+  "independent_starting_bracket_run": {
+    "status": "converged",
+    "delta_bracket": [
+      0.008811423364281654,
+      0.008811423370242119
+    ],
+    "delta": 0.008811423367261886,
+    "diameters": [
+      0.9653991786504043,
+      0.9653991786500292
+    ]
+  },
+  "reproduced_at_delta_0p01": {
+    "dummy": 0.9649655753222115,
+    "upper": 0.965657189953804
+  },
+  "scope": "Numerical crossing of continued reference models, not a proof of global partition optimality or of a universal containment theorem."
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+matplotlib>=3.6
+plotly>=5.0
+sympy>=1.11

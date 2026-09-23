@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "family": "symmetric_comparison",
+  "solid": "tetrahedron",
+  "normalization": "inradius",
+  "inradius": 0.49999999999999994,
+  "minimum_width": 1.732050807568877,
+  "tetrahedral_altitude": 1.9999999999999998,
+  "vertices": [
+    [
+      -0.8660254037844386,
+      -0.8660254037844386,
+      0.8660254037844386
+    ],
+    [
+      -0.8660254037844386,
+      0.8660254037844386,
+      -0.8660254037844386
+    ],
+    [
+      0.8660254037844386,
+      -0.8660254037844386,
+      -0.8660254037844386
+    ],
+    [
+      0.8660254037844386,
+      0.8660254037844386,
+      0.8660254037844386
+    ]
+  ],
+  "vertex_count": 4,
+  "fixed_count": 4,
+  "facet_count": 4,
+  "target_volume": 1.7320508075688767,
+  "target_diameter": 2.449489742783178,
+  "analytic_definition": "scripts/symmetric_polyhedra.py:ideal_geometry",
+  "rational_outer_halfspaces": [
+    {
+      "normal": [
+        "1",
+        "1",
+        "-1"
+      ],
+      "rhs": "1732050807568877293527446341505872366943/2000000000000000000000000000000000000000"
+    },
+    {
+      "normal": [
+        "1",
+        "-1",
+        "1"
+      ],
+      "rhs": "1732050807568877293527446341505872366943/2000000000000000000000000000000000000000"
+    },
+    {
+      "normal": [
+        "-1",
+        "1",
+        "1"
+      ],
+      "rhs": "1732050807568877293527446341505872366943/2000000000000000000000000000000000000000"
+    },
+    {
+      "normal": [
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "rhs": "1732050807568877293527446341505872366943/2000000000000000000000000000000000000000"
+    }
+  ],
+  "enclosure_digits": 40,
+  "note": "Default 2*inradius=1, not unit diameter. The tetrahedral altitude and minimum width differ. Rational outer target uses integer-square-root interval bounds."
+}

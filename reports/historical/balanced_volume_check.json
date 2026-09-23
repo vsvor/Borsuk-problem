@@ -1,0 +1,64 @@
+{
+  "dummy": {
+    "target_volume": 0.6699958417779361,
+    "union_volume": 0.6699958417779363,
+    "target_minus_union_volume": -1.1102230246251565e-16,
+    "intersection_volumes": {
+      "0": 0.18368820892566123,
+      "1": 0.17608832627399917,
+      "2": 0.157237812539706,
+      "3": 0.17635551313409378,
+      "0,1": 0.002110472414941003,
+      "0,2": 0.005653880746030542,
+      "0,3": 0.0029060236560793963,
+      "1,2": 0.0016307624230928513,
+      "1,3": 0.004480515665159638,
+      "2,3": 0.0065923641902204365,
+      "0,1,2": 0.0,
+      "0,1,3": 0.0,
+      "0,2,3": 0.0,
+      "1,2,3": 0.0,
+      "0,1,2,3": 0.0
+    },
+    "geometry": {
+      "valid_numerically": true,
+      "max_plane_residual": 1.1102230246251565e-16,
+      "max_outside_plane_violation": 0.0,
+      "max_missing_face_area": 3.9733961921058755e-17,
+      "max_extra_face_area": 5.393640647992902e-17,
+      "coverage_method": "transported_reference_complex",
+      "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+    }
+  },
+  "upper": {
+    "target_volume": 0.661176633296798,
+    "union_volume": 0.6611766332967979,
+    "target_minus_union_volume": 1.1102230246251565e-16,
+    "intersection_volumes": {
+      "0": 0.16920543250122885,
+      "1": 0.1412607905807738,
+      "2": 0.192882697725503,
+      "3": 0.18126621976830742,
+      "0,1": 0.0016906169064133851,
+      "0,2": 0.004898619771266368,
+      "0,3": 0.0056737925226964005,
+      "1,2": 0.006916790096383372,
+      "1,3": 0.0033888112016864677,
+      "2,3": 0.0008698767805693314,
+      "0,1,2": 0.0,
+      "0,1,3": 0.0,
+      "0,2,3": 0.0,
+      "1,2,3": 0.0,
+      "0,1,2,3": 0.0
+    },
+    "geometry": {
+      "valid_numerically": true,
+      "max_plane_residual": 1.1102230246251565e-16,
+      "max_outside_plane_violation": 1.1102230246251565e-16,
+      "max_missing_face_area": 1.3877787807814457e-17,
+      "max_extra_face_area": 1.734723475976807e-17,
+      "coverage_method": "transported_reference_complex",
+      "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+    }
+  }
+}

@@ -1,0 +1,2059 @@
+{
+  "format_version": 1,
+  "input": "six_plane_best.txt",
+  "input_sha256": "3c4c12829d621782bb633c58687ad64091451a2172e67a1e56290cce1661334c",
+  "output": "six_plane_relaxed.txt",
+  "indexing": "zero-based; hull numbers one-based",
+  "stored_input_diameter": 0.9728813196052167,
+  "actual_initial_diameter": 0.9728813196052167,
+  "initial_face_compatible_diameter": 0.9728813196052167,
+  "max_initial_face_correction": 1.6653345369377348e-16,
+  "optimized_max_diameter": 0.9699951984240177,
+  "absolute_improvement": 0.0028861211811990195,
+  "relative_improvement": 0.0029665706628740907,
+  "initial_hulls": [
+    {
+      "hull": 1,
+      "diameter": 0.9728813196049223,
+      "pair": [
+        29,
+        30
+      ],
+      "listed_point_count": 15
+    },
+    {
+      "hull": 2,
+      "diameter": 0.9728813196049977,
+      "pair": [
+        34,
+        37
+      ],
+      "listed_point_count": 17
+    },
+    {
+      "hull": 3,
+      "diameter": 0.972881319605198,
+      "pair": [
+        40,
+        30
+      ],
+      "listed_point_count": 15
+    },
+    {
+      "hull": 4,
+      "diameter": 0.9728813196052167,
+      "pair": [
+        29,
+        39
+      ],
+      "listed_point_count": 20
+    }
+  ],
+  "optimized_hulls": [
+    {
+      "hull": 1,
+      "diameter": 0.9699854711742647,
+      "pair": [
+        24,
+        32
+      ],
+      "listed_point_count": 15
+    },
+    {
+      "hull": 2,
+      "diameter": 0.969995198424017,
+      "pair": [
+        34,
+        37
+      ],
+      "listed_point_count": 17
+    },
+    {
+      "hull": 3,
+      "diameter": 0.9699951984240177,
+      "pair": [
+        34,
+        40
+      ],
+      "listed_point_count": 15
+    },
+    {
+      "hull": 4,
+      "diameter": 0.9699951984240177,
+      "pair": [
+        37,
+        40
+      ],
+      "listed_point_count": 20
+    }
+  ],
+  "solver": {
+    "method": "SLSQP",
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully",
+    "iterations": 7,
+    "function_evaluations": 7,
+    "ftol": 1e-13,
+    "final_epigraph_squared_diameter": 0.9408906849656332,
+    "elapsed_seconds": 0.011644352999994112,
+    "incumbent_squared_diameter": 0.9408906849656495
+  },
+  "optimality_bound": {
+    "success": true,
+    "scope": "Fixed memberships, fixed target vertices, and recorded face/edge incidences only.",
+    "tangent_lp_squared_lower": 0.9408906849656647,
+    "residual_corrected_squared_lower": 0.9408906849614592,
+    "squared_numerical_safety_allowance": 1e-11,
+    "diameter_lower_with_allowance": 0.9699951984167031,
+    "diameter_upper": 0.9699951984240177,
+    "diameter_gap_with_allowance": 7.314593375440381e-12,
+    "dual_stationarity_l1_residual": 8.102511446072408e-13,
+    "box_half_width": 5.1815405503520555,
+    "distance_dual_weights": [
+      {
+        "pair": [
+          34,
+          37
+        ],
+        "weight": 0.37217070968392457
+      },
+      {
+        "pair": [
+          34,
+          40
+        ],
+        "weight": 0.2556585806315785
+      },
+      {
+        "pair": [
+          37,
+          40
+        ],
+        "weight": 0.37217070968449706
+      }
+    ],
+    "target_dual_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "arithmetic_note": "Numerical dual bound with explicit residual correction and safety allowance; not outward-rounded interval arithmetic or a proof about all partitions."
+  },
+  "coverage_check": {
+    "valid_numerically": true,
+    "tolerance": 5e-10,
+    "max_affine_plane_residual": 1.1102230246251565e-16,
+    "max_normalized_outside_violation": 1.1102230246251565e-16,
+    "max_fixed_vertex_displacement": 0.0,
+    "max_missing_face_area": 6.245004513516506e-17,
+    "total_missing_face_area": 1.3282524818727209e-16,
+    "common_point": 33,
+    "faces": [
+      {
+        "face": 0,
+        "area": 0.35355339059327384,
+        "missing_area": 6.938893903907228e-18,
+        "outside_area": 4.163336342344337e-17,
+        "overlap_area": 5.551115123125783e-17
+      },
+      {
+        "face": 1,
+        "area": 0.35355339059327384,
+        "missing_area": 6.938893903907228e-18,
+        "outside_area": 3.469446951953614e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 2,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 3,
+        "area": 0.35355339059327384,
+        "missing_area": 6.245004513516506e-17,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      },
+      {
+        "face": 4,
+        "area": 0.29289321881345254,
+        "missing_area": 0.0,
+        "outside_area": 8.673617379884035e-18,
+        "overlap_area": 5.551115123125783e-17
+      },
+      {
+        "face": 5,
+        "area": 0.29289321881345254,
+        "missing_area": 4.261962743647812e-17,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 6,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 7,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 3.44902075543964e-17,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 8,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 9,
+        "area": 0.2322330470336312,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 10,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": -2.7755575615628914e-17
+      },
+      {
+        "face": 11,
+        "area": 0.2322330470336312,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 12,
+        "area": 0.29289321881345254,
+        "missing_area": 1.3877787807814457e-17,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      },
+      {
+        "face": 13,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 3.469446951953614e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 14,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      }
+    ],
+    "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+  },
+  "initial_coverage_after_snapping": {
+    "valid_numerically": true,
+    "tolerance": 1e-09,
+    "max_affine_plane_residual": 1.1102230246251565e-16,
+    "max_normalized_outside_violation": 1.1102230246251565e-16,
+    "max_fixed_vertex_displacement": 0.0,
+    "max_missing_face_area": 5.551115123125783e-17,
+    "total_missing_face_area": 1.102738429995736e-16,
+    "common_point": 33,
+    "faces": [
+      {
+        "face": 0,
+        "area": 0.35355339059327384,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 1,
+        "area": 0.35355339059327384,
+        "missing_area": 6.938893903907228e-18,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      },
+      {
+        "face": 2,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 3,
+        "area": 0.35355339059327384,
+        "missing_area": 5.551115123125783e-17,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 4,
+        "area": 0.29289321881345254,
+        "missing_area": 0.0,
+        "outside_area": 5.204170427930421e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 5,
+        "area": 0.29289321881345254,
+        "missing_area": 3.2211286580617275e-17,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 6,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 7,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 3.44902075543964e-17,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 8,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 9,
+        "area": 0.2322330470336312,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 10,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": -2.7755575615628914e-17
+      },
+      {
+        "face": 11,
+        "area": 0.2322330470336312,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 12,
+        "area": 0.29289321881345254,
+        "missing_area": 1.5612511283791264e-17,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 13,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 1.734723475976807e-18,
+        "overlap_area": 5.551115123125783e-17
+      },
+      {
+        "face": 14,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": -2.7755575615628914e-17
+      }
+    ],
+    "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+  },
+  "gradient_check_max_error": 1.6098833377498067e-10,
+  "model": {
+    "fixed_count": 23,
+    "groups": [
+      [
+        1,
+        3,
+        7,
+        10,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      [
+        9,
+        11,
+        15,
+        16,
+        19,
+        20,
+        23,
+        24,
+        34,
+        35,
+        36,
+        37,
+        38,
+        30,
+        31,
+        39,
+        33
+      ],
+      [
+        0,
+        2,
+        4,
+        5,
+        6,
+        25,
+        26,
+        34,
+        35,
+        40,
+        41,
+        30,
+        32,
+        39,
+        33
+      ],
+      [
+        8,
+        12,
+        13,
+        14,
+        17,
+        18,
+        21,
+        22,
+        27,
+        28,
+        29,
+        36,
+        37,
+        38,
+        40,
+        41,
+        31,
+        32,
+        39,
+        33
+      ]
+    ],
+    "A": [
+      [
+        -0.7071067811865476,
+        -0.7071067811865476,
+        0.0
+      ],
+      [
+        -0.0,
+        -0.7071067811865476,
+        -0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        -0.7071067811865476,
+        -0.0
+      ],
+      [
+        -0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        -0.0,
+        -0.7071067811865476
+      ],
+      [
+        0.0,
+        -0.7071067811865476,
+        0.7071067811865476
+      ],
+      [
+        -0.7071067811865476,
+        -0.0,
+        0.7071067811865476
+      ],
+      [
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      [
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        0.7071067811865476,
+        -0.0
+      ],
+      [
+        -0.7071067811865476,
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        -0.0,
+        0.7071067811865476,
+        -0.7071067811865476
+      ],
+      [
+        -0.0,
+        1.0,
+        -0.0
+      ]
+    ],
+    "b": [
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5000000000000001,
+      0.5
+    ],
+    "reference_points": [
+      [
+        -0.7071067811865476,
+        0.0,
+        0.0
+      ],
+      [
+        -0.3535533905932738,
+        -0.3535533905932738,
+        -0.3535533905932738
+      ],
+      [
+        -0.3535533905932738,
+        -0.3535533905932738,
+        0.3535533905932738
+      ],
+      [
+        -0.3535533905932738,
+        0.3535533905932738,
+        -0.3535533905932738
+      ],
+      [
+        -0.3535533905932738,
+        0.3535533905932738,
+        0.3535533905932738
+      ],
+      [
+        -0.20710678118654757,
+        -0.20710678118654757,
+        0.5
+      ],
+      [
+        -0.20710678118654757,
+        0.20710678118654757,
+        0.5
+      ],
+      [
+        -0.20710678118654757,
+        0.5,
+        -0.20710678118654757
+      ],
+      [
+        -0.20710678118654757,
+        0.5,
+        0.20710678118654757
+      ],
+      [
+        0.0,
+        -0.7071067811865476,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.7071067811865476
+      ],
+      [
+        0.20710678118654757,
+        -0.20710678118654757,
+        0.5
+      ],
+      [
+        0.20710678118654757,
+        0.20710678118654757,
+        0.5
+      ],
+      [
+        0.20710678118654757,
+        0.5,
+        -0.20710678118654757
+      ],
+      [
+        0.20710678118654757,
+        0.5,
+        0.20710678118654757
+      ],
+      [
+        0.3535533905932738,
+        -0.3535533905932738,
+        -0.3535533905932738
+      ],
+      [
+        0.3535533905932738,
+        -0.3535533905932738,
+        0.3535533905932738
+      ],
+      [
+        0.3535533905932738,
+        0.3535533905932738,
+        -0.3535533905932738
+      ],
+      [
+        0.3535533905932738,
+        0.3535533905932738,
+        0.3535533905932738
+      ],
+      [
+        0.5,
+        -0.20710678118654757,
+        -0.20710678118654757
+      ],
+      [
+        0.5,
+        -0.20710678118654757,
+        0.20710678118654757
+      ],
+      [
+        0.5,
+        0.20710678118654757,
+        -0.20710678118654757
+      ],
+      [
+        0.5,
+        0.20710678118654757,
+        0.20710678118654757
+      ],
+      [
+        -0.23830188592386953,
+        -0.46880489526267805,
+        -0.23830188592386953
+      ],
+      [
+        0.2848560241144176,
+        -0.2848560241144176,
+        -0.42225075707212995
+      ],
+      [
+        -0.48488959033526163,
+        -0.22221719085128594,
+        -0.2222171908512861
+      ],
+      [
+        -0.49851217105992923,
+        0.20859461012661834,
+        -0.2085946101266185
+      ],
+      [
+        -0.20710678118654757,
+        0.5,
+        -0.1723904218435854
+      ],
+      [
+        -0.1549832062022748,
+        0.5,
+        -0.20710678118654757
+      ],
+      [
+        0.3092254676147726,
+        0.3092254676147726,
+        -0.397881313571775
+      ],
+      [
+        -0.29845516438012976,
+        -0.40865161680641787,
+        -0.1491348498835005
+      ],
+      [
+        0.42663553927899606,
+        -0.0059369945841282225,
+        -0.28047124190755157
+      ],
+      [
+        -0.2661692260849002,
+        0.44093755510164745,
+        -0.0963946012529193
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.23333079505632942,
+        -0.47377598613021815,
+        0.23333079505632942
+      ],
+      [
+        0.008405807377533853,
+        -0.20710678118654774,
+        0.5
+      ],
+      [
+        0.20710678118654757,
+        -0.020769120957998405,
+        0.5
+      ],
+      [
+        0.5,
+        -0.010376861733426557,
+        -0.20710678118654757
+      ],
+      [
+        0.5,
+        -0.02202353556782541,
+        0.2071067811865474
+      ],
+      [
+        0.12725973017605008,
+        -0.01818204478192492,
+        0.5
+      ],
+      [
+        -0.21860073541974753,
+        0.48850604576680007,
+        0.21860073541974737
+      ],
+      [
+        0.0028115488001035915,
+        0.20710678118654757,
+        0.5
+      ]
+    ],
+    "active_faces": [
+      [
+        0,
+        3,
+        6,
+        12
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        5,
+        6
+      ],
+      [
+        3,
+        12,
+        13
+      ],
+      [
+        6,
+        9,
+        12
+      ],
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        6,
+        7,
+        9
+      ],
+      [
+        12,
+        13,
+        14
+      ],
+      [
+        9,
+        12,
+        14
+      ],
+      [
+        0,
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        3,
+        4,
+        13
+      ],
+      [
+        5,
+        7,
+        10
+      ],
+      [
+        7,
+        9,
+        10
+      ],
+      [
+        11,
+        13,
+        14
+      ],
+      [
+        9,
+        11,
+        14
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        2,
+        5,
+        10
+      ],
+      [
+        4,
+        11,
+        13
+      ],
+      [
+        9,
+        10,
+        11
+      ],
+      [
+        2,
+        4,
+        8
+      ],
+      [
+        2,
+        8,
+        10
+      ],
+      [
+        4,
+        8,
+        11
+      ],
+      [
+        8,
+        10,
+        11
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        0
+      ],
+      [
+        4
+      ],
+      [
+        12
+      ],
+      [],
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        7
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "parameter_box_half_width": 5.1815405503520555,
+    "point_degrees_of_freedom": [
+      {
+        "point": 23,
+        "dimension": 1
+      },
+      {
+        "point": 24,
+        "dimension": 1
+      },
+      {
+        "point": 25,
+        "dimension": 1
+      },
+      {
+        "point": 26,
+        "dimension": 1
+      },
+      {
+        "point": 27,
+        "dimension": 1
+      },
+      {
+        "point": 28,
+        "dimension": 1
+      },
+      {
+        "point": 29,
+        "dimension": 1
+      },
+      {
+        "point": 30,
+        "dimension": 2
+      },
+      {
+        "point": 31,
+        "dimension": 2
+      },
+      {
+        "point": 32,
+        "dimension": 2
+      },
+      {
+        "point": 33,
+        "dimension": 3
+      },
+      {
+        "point": 34,
+        "dimension": 1
+      },
+      {
+        "point": 35,
+        "dimension": 1
+      },
+      {
+        "point": 36,
+        "dimension": 1
+      },
+      {
+        "point": 37,
+        "dimension": 1
+      },
+      {
+        "point": 38,
+        "dimension": 1
+      },
+      {
+        "point": 39,
+        "dimension": 2
+      },
+      {
+        "point": 40,
+        "dimension": 1
+      },
+      {
+        "point": 41,
+        "dimension": 1
+      }
+    ],
+    "coverage_mesh": {
+      "valid_numerically": true,
+      "vertices": 41,
+      "edges": 117,
+      "triangle_count": 78,
+      "common_point": 33,
+      "triangles": [
+        {
+          "face": 0,
+          "vertices": [
+            23,
+            30,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 0,
+          "vertices": [
+            30,
+            23,
+            9
+          ],
+          "owner": 2
+        },
+        {
+          "face": 0,
+          "vertices": [
+            30,
+            34,
+            2
+          ],
+          "owner": 3
+        },
+        {
+          "face": 0,
+          "vertices": [
+            34,
+            30,
+            9
+          ],
+          "owner": 2
+        },
+        {
+          "face": 0,
+          "vertices": [
+            0,
+            25,
+            2
+          ],
+          "owner": 3
+        },
+        {
+          "face": 0,
+          "vertices": [
+            25,
+            30,
+            2
+          ],
+          "owner": 3
+        },
+        {
+          "face": 0,
+          "vertices": [
+            30,
+            25,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 1,
+          "vertices": [
+            10,
+            24,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 1,
+          "vertices": [
+            9,
+            23,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 1,
+          "vertices": [
+            23,
+            24,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 1,
+          "vertices": [
+            24,
+            23,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 2,
+          "vertices": [
+            16,
+            9,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 2,
+          "vertices": [
+            19,
+            20,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 2,
+          "vertices": [
+            20,
+            16,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 3,
+          "vertices": [
+            3,
+            10,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 3,
+          "vertices": [
+            25,
+            3,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 3,
+          "vertices": [
+            25,
+            26,
+            3
+          ],
+          "owner": 1
+        },
+        {
+          "face": 3,
+          "vertices": [
+            26,
+            25,
+            0
+          ],
+          "owner": 3
+        },
+        {
+          "face": 4,
+          "vertices": [
+            31,
+            24,
+            10
+          ],
+          "owner": 1
+        },
+        {
+          "face": 4,
+          "vertices": [
+            24,
+            19,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 4,
+          "vertices": [
+            24,
+            31,
+            19
+          ],
+          "owner": 2
+        },
+        {
+          "face": 4,
+          "vertices": [
+            29,
+            31,
+            10
+          ],
+          "owner": 1
+        },
+        {
+          "face": 4,
+          "vertices": [
+            21,
+            29,
+            17
+          ],
+          "owner": 4
+        },
+        {
+          "face": 4,
+          "vertices": [
+            29,
+            21,
+            31
+          ],
+          "owner": 4
+        },
+        {
+          "face": 4,
+          "vertices": [
+            31,
+            37,
+            19
+          ],
+          "owner": 2
+        },
+        {
+          "face": 4,
+          "vertices": [
+            21,
+            37,
+            31
+          ],
+          "owner": 4
+        },
+        {
+          "face": 5,
+          "vertices": [
+            34,
+            9,
+            16
+          ],
+          "owner": 2
+        },
+        {
+          "face": 5,
+          "vertices": [
+            34,
+            5,
+            2
+          ],
+          "owner": 3
+        },
+        {
+          "face": 5,
+          "vertices": [
+            34,
+            35,
+            5
+          ],
+          "owner": 3
+        },
+        {
+          "face": 5,
+          "vertices": [
+            35,
+            34,
+            16
+          ],
+          "owner": 2
+        },
+        {
+          "face": 5,
+          "vertices": [
+            11,
+            35,
+            16
+          ],
+          "owner": 2
+        },
+        {
+          "face": 6,
+          "vertices": [
+            4,
+            0,
+            2
+          ],
+          "owner": 3
+        },
+        {
+          "face": 6,
+          "vertices": [
+            5,
+            6,
+            2
+          ],
+          "owner": 3
+        },
+        {
+          "face": 6,
+          "vertices": [
+            6,
+            4,
+            2
+          ],
+          "owner": 3
+        },
+        {
+          "face": 7,
+          "vertices": [
+            39,
+            6,
+            5
+          ],
+          "owner": 3
+        },
+        {
+          "face": 7,
+          "vertices": [
+            35,
+            39,
+            5
+          ],
+          "owner": 3
+        },
+        {
+          "face": 7,
+          "vertices": [
+            39,
+            35,
+            11
+          ],
+          "owner": 2
+        },
+        {
+          "face": 7,
+          "vertices": [
+            36,
+            39,
+            11
+          ],
+          "owner": 2
+        },
+        {
+          "face": 7,
+          "vertices": [
+            36,
+            12,
+            39
+          ],
+          "owner": 4
+        },
+        {
+          "face": 7,
+          "vertices": [
+            39,
+            41,
+            6
+          ],
+          "owner": 3
+        },
+        {
+          "face": 7,
+          "vertices": [
+            12,
+            41,
+            39
+          ],
+          "owner": 4
+        },
+        {
+          "face": 8,
+          "vertices": [
+            22,
+            37,
+            21
+          ],
+          "owner": 4
+        },
+        {
+          "face": 8,
+          "vertices": [
+            38,
+            20,
+            19
+          ],
+          "owner": 2
+        },
+        {
+          "face": 8,
+          "vertices": [
+            37,
+            38,
+            19
+          ],
+          "owner": 2
+        },
+        {
+          "face": 8,
+          "vertices": [
+            22,
+            38,
+            37
+          ],
+          "owner": 4
+        },
+        {
+          "face": 9,
+          "vertices": [
+            6,
+            40,
+            4
+          ],
+          "owner": 3
+        },
+        {
+          "face": 9,
+          "vertices": [
+            41,
+            40,
+            6
+          ],
+          "owner": 3
+        },
+        {
+          "face": 9,
+          "vertices": [
+            40,
+            41,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 9,
+          "vertices": [
+            41,
+            14,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 9,
+          "vertices": [
+            14,
+            12,
+            18
+          ],
+          "owner": 4
+        },
+        {
+          "face": 9,
+          "vertices": [
+            12,
+            14,
+            41
+          ],
+          "owner": 4
+        },
+        {
+          "face": 10,
+          "vertices": [
+            36,
+            11,
+            38
+          ],
+          "owner": 2
+        },
+        {
+          "face": 10,
+          "vertices": [
+            20,
+            11,
+            16
+          ],
+          "owner": 2
+        },
+        {
+          "face": 10,
+          "vertices": [
+            11,
+            20,
+            38
+          ],
+          "owner": 2
+        },
+        {
+          "face": 10,
+          "vertices": [
+            12,
+            22,
+            18
+          ],
+          "owner": 4
+        },
+        {
+          "face": 10,
+          "vertices": [
+            22,
+            36,
+            38
+          ],
+          "owner": 4
+        },
+        {
+          "face": 10,
+          "vertices": [
+            22,
+            12,
+            36
+          ],
+          "owner": 4
+        },
+        {
+          "face": 11,
+          "vertices": [
+            13,
+            21,
+            17
+          ],
+          "owner": 4
+        },
+        {
+          "face": 11,
+          "vertices": [
+            22,
+            14,
+            18
+          ],
+          "owner": 4
+        },
+        {
+          "face": 11,
+          "vertices": [
+            14,
+            22,
+            13
+          ],
+          "owner": 4
+        },
+        {
+          "face": 11,
+          "vertices": [
+            22,
+            21,
+            13
+          ],
+          "owner": 4
+        },
+        {
+          "face": 12,
+          "vertices": [
+            26,
+            0,
+            4
+          ],
+          "owner": 3
+        },
+        {
+          "face": 12,
+          "vertices": [
+            32,
+            40,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 12,
+          "vertices": [
+            32,
+            7,
+            3
+          ],
+          "owner": 1
+        },
+        {
+          "face": 12,
+          "vertices": [
+            26,
+            32,
+            3
+          ],
+          "owner": 1
+        },
+        {
+          "face": 12,
+          "vertices": [
+            32,
+            26,
+            4
+          ],
+          "owner": 3
+        },
+        {
+          "face": 12,
+          "vertices": [
+            40,
+            32,
+            4
+          ],
+          "owner": 3
+        },
+        {
+          "face": 12,
+          "vertices": [
+            32,
+            27,
+            7
+          ],
+          "owner": 1
+        },
+        {
+          "face": 12,
+          "vertices": [
+            27,
+            32,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 13,
+          "vertices": [
+            29,
+            10,
+            3
+          ],
+          "owner": 1
+        },
+        {
+          "face": 13,
+          "vertices": [
+            29,
+            13,
+            17
+          ],
+          "owner": 4
+        },
+        {
+          "face": 13,
+          "vertices": [
+            28,
+            13,
+            29
+          ],
+          "owner": 4
+        },
+        {
+          "face": 13,
+          "vertices": [
+            7,
+            28,
+            3
+          ],
+          "owner": 1
+        },
+        {
+          "face": 13,
+          "vertices": [
+            28,
+            29,
+            3
+          ],
+          "owner": 1
+        },
+        {
+          "face": 14,
+          "vertices": [
+            28,
+            14,
+            13
+          ],
+          "owner": 4
+        },
+        {
+          "face": 14,
+          "vertices": [
+            14,
+            28,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 14,
+          "vertices": [
+            27,
+            28,
+            7
+          ],
+          "owner": 1
+        },
+        {
+          "face": 14,
+          "vertices": [
+            28,
+            27,
+            8
+          ],
+          "owner": 4
+        }
+      ],
+      "faces": [
+        {
+          "face": 0,
+          "triangle_count": 7,
+          "area": 0.35355339059327384,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 1,
+          "triangle_count": 4,
+          "area": 0.35355339059327384,
+          "missing_area": 6.938893903907228e-18,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 2,
+          "triangle_count": 3,
+          "area": 0.2928932188134526,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 3,
+          "triangle_count": 4,
+          "area": 0.35355339059327384,
+          "missing_area": 5.551115123125783e-17,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 4,
+          "triangle_count": 8,
+          "area": 0.29289321881345254,
+          "missing_area": 0.0,
+          "outside_area": 5.204170427930421e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 5,
+          "triangle_count": 5,
+          "area": 0.29289321881345254,
+          "missing_area": 3.2211286580617275e-17,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 6,
+          "triangle_count": 3,
+          "area": 0.2928932188134526,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 7,
+          "triangle_count": 7,
+          "area": 0.17157287525381,
+          "missing_area": 0.0,
+          "outside_area": 3.44902075543964e-17,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 8,
+          "triangle_count": 4,
+          "area": 0.17157287525381,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 9,
+          "triangle_count": 6,
+          "area": 0.2322330470336312,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 10,
+          "triangle_count": 6,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 2.299347170293093e-17,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 11,
+          "triangle_count": 4,
+          "area": 0.2322330470336312,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 12,
+          "triangle_count": 8,
+          "area": 0.29289321881345254,
+          "missing_area": 1.5612511283791264e-17,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 13,
+          "triangle_count": 5,
+          "area": 0.2928932188134526,
+          "missing_area": 0.0,
+          "outside_area": 1.734723475976807e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 14,
+          "triangle_count": 4,
+          "area": 0.17157287525381,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        }
+      ],
+      "coverage_argument": "Face-preserving continuous maps of each target face are surjective; all mapped triangles belong to their owner hulls. The common point extends the boundary cover to the target interior. Folding is permitted."
+    }
+  }
+}

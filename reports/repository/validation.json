@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-23",
+  "test_count": 103,
+  "test_failures": 0,
+  "test_errors": 0,
+  "test_skips": 0,
+  "test_command": "python tools/run_tests.py",
+  "test_log": "reports/repository/all_tests.txt",
+  "fresh_full_volume_primary_certificates": 5,
+  "exact_missing_volume_zero_for_all_five": true,
+  "raw_primary_files_with_proved_ideal_target_gap": 5,
+  "facet_padding": "1/1000000000000",
+  "new_six_plane_symbolic_certificates": 2,
+  "symbolic_field": "Q(sqrt(2))",
+  "symbolic_reference_target": "Ideal 23-vertex positive three-truncation body",
+  "fine_symbolic_diameter_interval": [
+    "0.972881319605256",
+    "0.972881319605257"
+  ],
+  "coarse_symbolic_diameter_interval": [
+    "0.972881404297868",
+    "0.972881404297869"
+  ],
+  "supplementary_triangle_certificate_reproduced": true,
+  "large_multistart_searches_rerun_during_assembly": false,
+  "publication_status": "Local repository only; no external remote created."
+}

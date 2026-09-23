@@ -1,0 +1,71 @@
+{
+  "regression_tests": {
+    "passed": 15,
+    "failed": 0,
+    "command": "python -m unittest -v test_partitions_slsqp.py"
+  },
+  "additional_manual_tests": [
+    "saved model from previous optimizer was loaded and reproduced its optimum",
+    "two-worker Ctrl-C test stopped cooperatively and retained a valid best checkpoint"
+  ],
+  "experiments": [
+    {
+      "test": "1000 ordinary Voronoi starts; initial cover polished",
+      "best_diameter": 0.9697677618614489,
+      "point_count": 43,
+      "counts": {
+        "fixed_pair_pruned": 632,
+        "geometry_rejected": 24,
+        "lower_bound_pruned": 62,
+        "cached_lower_bound": 282
+      },
+      "next_start_id": 1000,
+      "source": "input",
+      "max_missing_face_area": 4.6906964832623387e-17,
+      "max_plane_residual": 1.379044132980194e-16,
+      "independent_union_volume": 0.6715728752538098,
+      "target_volume": 0.67157287525381,
+      "independent_volume_difference": -2.220446049250313e-16
+    },
+    {
+      "test": "800 power-diagram starts, weight scale 0.02; initial cover polished",
+      "best_diameter": 0.9697677618614489,
+      "point_count": 43,
+      "counts": {
+        "fixed_pair_pruned": 611,
+        "lower_bound_pruned": 39,
+        "cached_lower_bound": 150
+      },
+      "next_start_id": 800,
+      "source": "input",
+      "max_missing_face_area": 4.6906964832623387e-17,
+      "max_plane_residual": 1.379044132980194e-16,
+      "independent_union_volume": 0.6715728752538098,
+      "target_volume": 0.67157287525381,
+      "independent_volume_difference": -2.220446049250313e-16
+    },
+    {
+      "test": "60 starts from scratch, followed by a 4-start resume test",
+      "best_diameter": 0.9699951984241917,
+      "point_count": 41,
+      "counts": {
+        "geometry_rejected": 3,
+        "converged": 6,
+        "lower_bound_pruned": 8,
+        "fixed_pair_pruned": 47
+      },
+      "next_start_id": 64,
+      "source": "mutated_voronoi",
+      "max_missing_face_area": 4.817687557682011e-17,
+      "max_plane_residual": 1.379044132980194e-16,
+      "independent_union_volume": 0.6715728752538097,
+      "target_volume": 0.67157287525381,
+      "independent_volume_difference": -3.3306690738754696e-16
+    }
+  ],
+  "notes": [
+    "No improvement below 0.969767761861449 was found in the stated exploratory tests.",
+    "Parallel elite selection is scheduling-dependent.",
+    "All verification and lower bounds are numerical, not exact or interval-certified."
+  ]
+}

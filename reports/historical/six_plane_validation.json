@@ -1,0 +1,80 @@
+{
+  "regression_tests": {
+    "passed": 12,
+    "failed": 0,
+    "command": "python3 -m unittest -v test_six_plane_search.py"
+  },
+  "experiments": [
+    {
+      "target": "positive",
+      "starts": 100,
+      "workers": 4,
+      "seed": 7,
+      "best_diameter": 0.9728813196052167,
+      "note": "Initial test before the scheduling-independent seed-stream adjustment."
+    },
+    {
+      "target": "positive",
+      "starts": 1000,
+      "workers": 4,
+      "seed": 2026,
+      "best_diameter": 0.9728813196062135,
+      "geometry_rejections": 0,
+      "note": "Final released program; then 20 additional record-perturbation starts, with no improvement."
+    },
+    {
+      "target": "symmetric",
+      "starts": 10,
+      "workers": 2,
+      "seed": 123,
+      "best_diameter": 0.9651207234082926,
+      "geometry_rejections": 0,
+      "note": "A DIFFERENT, 32-vertex target. Do not compare this diameter as an improvement for the positive target."
+    }
+  ],
+  "example": {
+    "diameter": 0.9728813196052167,
+    "point_count": 42,
+    "verification": {
+      "ok": true,
+      "cell_volumes": [
+        0.16562756689407085,
+        0.17406131924175156,
+        0.17416353109846347,
+        0.15772045801952408
+      ],
+      "cell_diameters": [
+        0.9728813196049223,
+        0.9728813196049976,
+        0.9728813196051979,
+        0.9728813196052167
+      ],
+      "diameter": 0.9728813196052167,
+      "target_volume": 0.67157287525381,
+      "volume_sum_error": -1.1102230246251565e-16,
+      "relative_volume_error": 1.6531683537777875e-16,
+      "all_six_interfaces": true,
+      "interfaces": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "max_halfspace_violation": 1.1102230246251565e-16,
+      "reason": "ok"
+    }
+  },
+  "checks": [
+    "Analytic Jacobians away from ties/topology transitions",
+    "Exact-type vertex enumeration compared with independent HalfspaceIntersection",
+    "Independent six-plane rejection test",
+    "Twelve unit tests",
+    "Parallel controller and best/previous-best rotation",
+    "Resume with record mutation",
+    "Tiny per-run time budget"
+  ],
+  "numerics": "Floating point only; no rigorous interval certificate and no proof of global optimality.",
+  "script_sha256": "f48a1a7fa141764fa594ec4d9302efde1a4fb6c09ef6c509a2773147dad95de3"
+}

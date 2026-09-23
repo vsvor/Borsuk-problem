@@ -1,0 +1,220 @@
+{
+  "normalization": "inradius_1/2",
+  "parts": 4,
+  "six_trd_global_optimality_proved": false,
+  "threshold_note": "If a case body contains a congruent copy of P6, its optimal four-set diameter is >= beta4(P6). The numerical upper bound for P6 is NOT a proven global lower barrier.",
+  "experiment": "2000 starts per target (600 then 1400 resumed), 4 workers, seed 23; max 5 cooperative seconds/start; subsequent tight SLSQP polishing; explicit symmetric candidate for tetrahedron and octahedron.",
+  "results": [
+    {
+      "solid": "six_trd",
+      "target_vertices": 32,
+      "target_faces": 18,
+      "point_count": 53,
+      "target_diameter": 1.2247448713915892,
+      "target_volume": 0.6360389693210724,
+      "best_numerical_diameter": 0.9635512424574932,
+      "certified_padded_upper": "0.963551242461420",
+      "padding": "1/1000000000000",
+      "exact_missing_volume_zero": true,
+      "completed_starts": 2000,
+      "search_counts": {
+        "converged": 15,
+        "geometry_rejected": 60,
+        "fixed_pair_pruned": 1345,
+        "lower_bound_pruned": 257,
+        "cached_lower_bound": 321,
+        "duplicate_in_progress": 2
+      },
+      "source": "sphere",
+      "partition": "data/symmetric/six_trd/partition.txt",
+      "certificate": "certificates/current/six_trd_padded.json"
+    },
+    {
+      "solid": "tetrahedron",
+      "target_vertices": 4,
+      "target_faces": 4,
+      "point_count": 15,
+      "target_diameter": 2.449489742783178,
+      "target_volume": 1.7320508075688767,
+      "best_numerical_diameter": 1.4999999999999998,
+      "certified_padded_upper": "1.500000000006929",
+      "padding": "1/1000000000000",
+      "exact_missing_volume_zero": true,
+      "completed_starts": 2000,
+      "search_counts": {
+        "converged": 1,
+        "lower_bound_pruned": 114,
+        "fixed_pair_pruned": 377,
+        "cached_lower_bound": 1501,
+        "geometry_rejected": 6,
+        "duplicate_in_progress": 1
+      },
+      "source": "explicit_regular_tetrahedral_scores",
+      "partition": "data/symmetric/tetrahedron/partition.txt",
+      "certificate": "certificates/current/tetrahedron_padded.json",
+      "exact_construction": {
+        "certificate": "symbolic/platonic/tetrahedron.json",
+        "diameter_squared": {
+          "rational": "9/4",
+          "sqrt5": "0"
+        },
+        "diameter_interval": [
+          "1.500000000000000",
+          "1.500000000000000"
+        ],
+        "global_optimality_proved": true
+      }
+    },
+    {
+      "solid": "cube",
+      "target_vertices": 8,
+      "target_faces": 6,
+      "point_count": 22,
+      "target_diameter": 1.7320508075688772,
+      "target_volume": 1.0,
+      "best_numerical_diameter": 1.2247448713915894,
+      "certified_padded_upper": "1.224744871395997",
+      "padding": "1/1000000000000",
+      "exact_missing_volume_zero": true,
+      "completed_starts": 2000,
+      "search_counts": {
+        "converged": 33,
+        "lower_bound_pruned": 146,
+        "fixed_pair_pruned": 738,
+        "cached_lower_bound": 1078,
+        "geometry_rejected": 3,
+        "duplicate_in_progress": 2
+      },
+      "source": "sphere",
+      "partition": "data/symmetric/cube/partition.txt",
+      "certificate": "certificates/current/cube_padded.json",
+      "exact_construction": {
+        "certificate": "symbolic/platonic/cube.json",
+        "diameter_squared": {
+          "rational": "3/2",
+          "sqrt5": "0"
+        },
+        "diameter_interval": [
+          "1.224744871391589",
+          "1.224744871391590"
+        ],
+        "global_optimality_proved": false
+      }
+    },
+    {
+      "solid": "octahedron",
+      "target_vertices": 6,
+      "target_faces": 8,
+      "point_count": 11,
+      "target_diameter": 1.7320508075688772,
+      "target_volume": 0.8660254037844384,
+      "best_numerical_diameter": 1.224744871391589,
+      "certified_padded_upper": "1.224744871397246",
+      "padding": "1/1000000000000",
+      "exact_missing_volume_zero": true,
+      "completed_starts": 2000,
+      "search_counts": {
+        "converged": 3,
+        "lower_bound_pruned": 5,
+        "fixed_pair_pruned": 860,
+        "cached_lower_bound": 1110,
+        "geometry_rejected": 22
+      },
+      "source": "explicit_regular_tetrahedral_scores",
+      "partition": "data/symmetric/octahedron/partition.txt",
+      "certificate": "certificates/current/octahedron_padded.json",
+      "exact_construction": {
+        "certificate": "symbolic/platonic/octahedron.json",
+        "diameter_squared": {
+          "rational": "3/2",
+          "sqrt5": "0"
+        },
+        "diameter_interval": [
+          "1.224744871391589",
+          "1.224744871391590"
+        ],
+        "global_optimality_proved": true
+      }
+    },
+    {
+      "solid": "dodecahedron",
+      "target_vertices": 20,
+      "target_faces": 12,
+      "point_count": 36,
+      "target_diameter": 1.258408572364819,
+      "target_volume": 0.6937863785644391,
+      "best_numerical_diameter": 1.0449236496756757,
+      "certified_padded_upper": "1.044923649680310",
+      "padding": "1/1000000000000",
+      "exact_missing_volume_zero": true,
+      "completed_starts": 2000,
+      "search_counts": {
+        "converged": 8,
+        "lower_bound_pruned": 985,
+        "cached_lower_bound": 659,
+        "fixed_pair_pruned": 347,
+        "geometry_rejected": 1
+      },
+      "source": "sphere",
+      "partition": "data/symmetric/dodecahedron/partition.txt",
+      "certificate": "certificates/current/dodecahedron_padded.json"
+    },
+    {
+      "solid": "icosahedron",
+      "target_vertices": 12,
+      "target_faces": 20,
+      "point_count": 35,
+      "target_diameter": 1.2584085723648188,
+      "target_volume": 0.6317570179498629,
+      "best_numerical_diameter": 0.9270509831248426,
+      "certified_padded_upper": "0.927050983128862",
+      "padding": "1/1000000000000",
+      "exact_missing_volume_zero": true,
+      "completed_starts": 2000,
+      "search_counts": {
+        "converged": 4,
+        "lower_bound_pruned": 177,
+        "fixed_pair_pruned": 1093,
+        "cached_lower_bound": 698,
+        "geometry_rejected": 28
+      },
+      "source": "mutated_voronoi",
+      "partition": "data/symmetric/icosahedron/partition.txt",
+      "certificate": "certificates/current/icosahedron_padded.json",
+      "exact_construction": {
+        "certificate": "symbolic/platonic/icosahedron.json",
+        "diameter_squared": {
+          "rational": "27/8",
+          "sqrt5": "-9/8"
+        },
+        "diameter_interval": [
+          "0.927050983124842",
+          "0.927050983124843"
+        ],
+        "global_optimality_proved": false
+      }
+    }
+  ],
+  "six_trd_active_triangles": [
+    [
+      34,
+      35,
+      51
+    ],
+    [
+      37,
+      41,
+      47
+    ],
+    [
+      39,
+      42,
+      49
+    ],
+    [
+      44,
+      48,
+      50
+    ]
+  ]
+}

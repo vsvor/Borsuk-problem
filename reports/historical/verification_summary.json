@@ -1,0 +1,41 @@
+{
+  "script": "exact_cover_check.py",
+  "regression_tests_passed": 16,
+  "arithmetic": "Exact rational/integer decisions; only displayed approximations are floats.",
+  "examples": {
+    "dummy": {
+      "raw_ideal_target_covered": false,
+      "padding": "1/1000000000000",
+      "padded_ideal_target_covered": true,
+      "original_diameter_upper": "0.965399178649837",
+      "certified_diameter_upper": "0.965399178654095",
+      "diameter_bound_proved": true,
+      "exact_missing_volume_zero": true,
+      "independent_full_3D_intersections": 15,
+      "all_six_overlap_witnesses_strictly_inside_ideal_target": true,
+      "full_verification_elapsed_seconds": 13.254901950999965,
+      "common_point_approx": [
+        0.0120557915901311,
+        0.008944013268025304,
+        0.010568980089621075
+      ]
+    },
+    "upper": {
+      "raw_ideal_target_covered": false,
+      "padding": "1/1000000000000",
+      "padded_ideal_target_covered": true,
+      "original_diameter_upper": "0.965399178650352",
+      "certified_diameter_upper": "0.965399178654163",
+      "diameter_bound_proved": true,
+      "exact_missing_volume_zero": true,
+      "independent_full_3D_intersections": 15,
+      "all_six_overlap_witnesses_strictly_inside_ideal_target": true,
+      "full_verification_elapsed_seconds": 11.869302155000014,
+      "common_point_approx": [
+        -0.12740094699296226,
+        0.045100364514073094,
+        -0.059569966821726585
+      ]
+    }
+  }
+}

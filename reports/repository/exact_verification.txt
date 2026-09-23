@@ -1,0 +1,5 @@
+three_six_planes PASS D <= 0.972881319609817
+three_relaxed PASS D <= 0.969995198428698
+three_best PASS D <= 0.969767761865705
+balanced_dummy PASS D <= 0.965399178654095
+balanced_upper PASS D <= 0.965399178654163

@@ -1,0 +1,113 @@
+{
+  "five": {
+    "cuts": [
+      "+x",
+      "-x",
+      "+y",
+      "-y",
+      "+z"
+    ],
+    "untruncated_axial_vertices": [
+      "-z"
+    ],
+    "target_vertex_count": 29,
+    "target_volume": 0.6478836046319846,
+    "target_diameter": 1.242132528683414,
+    "completed_starts": 1500,
+    "best_partition_diameter": 0.9635512424576009,
+    "best_run_id": 402,
+    "best_source": "sphere",
+    "partition_point_count": 50,
+    "counts": {
+      "converged": 12,
+      "fixed_pair_pruned": 968,
+      "geometry_rejected": 42,
+      "lower_bound_pruned": 199,
+      "cached_lower_bound": 278,
+      "duplicate_in_progress": 1
+    },
+    "geometry": {
+      "valid_numerically": true,
+      "max_plane_residual": 6.895220664900969e-17,
+      "max_outside_plane_violation": 6.895220664900969e-17,
+      "max_missing_face_area": 5.1751372801201684e-17,
+      "max_extra_face_area": 2.676493087601116e-17,
+      "coverage_method": "power_complex",
+      "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+    }
+  },
+  "four_opposite": {
+    "cuts": [
+      "+x",
+      "-x",
+      "+y",
+      "-y"
+    ],
+    "untruncated_axial_vertices": [
+      "+z",
+      "-z"
+    ],
+    "target_vertex_count": 26,
+    "target_volume": 0.659728239942897,
+    "target_diameter": 1.414213562373095,
+    "completed_starts": 1500,
+    "best_partition_diameter": 0.9699951984241376,
+    "best_run_id": 4,
+    "best_source": "sphere",
+    "partition_point_count": 45,
+    "counts": {
+      "converged": 35,
+      "fixed_pair_pruned": 1042,
+      "lower_bound_pruned": 94,
+      "cached_lower_bound": 287,
+      "geometry_rejected": 40,
+      "duplicate_in_progress": 2
+    },
+    "geometry": {
+      "valid_numerically": true,
+      "max_plane_residual": 7.850462293418875e-17,
+      "max_outside_plane_violation": 7.850462293418875e-17,
+      "max_missing_face_area": 3.945657343223412e-17,
+      "max_extra_face_area": 3.251767952832689e-17,
+      "coverage_method": "power_complex",
+      "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+    }
+  },
+  "four_adjacent": {
+    "cuts": [
+      "-x",
+      "-y",
+      "+z",
+      "-z"
+    ],
+    "untruncated_axial_vertices": [
+      "+x",
+      "+y"
+    ],
+    "target_vertex_count": 26,
+    "target_volume": 0.6597282399428972,
+    "target_diameter": 1.2421325286834142,
+    "completed_starts": 442,
+    "best_partition_diameter": 0.9635512424576053,
+    "best_run_id": 217,
+    "best_source": "mutated_voronoi",
+    "partition_point_count": 47,
+    "counts": {
+      "converged": 13,
+      "fixed_pair_pruned": 282,
+      "lower_bound_pruned": 60,
+      "geometry_rejected": 16,
+      "cached_lower_bound": 69,
+      "duplicate_in_progress": 2
+    },
+    "geometry": {
+      "valid_numerically": true,
+      "max_plane_residual": 1.379044132980194e-16,
+      "max_outside_plane_violation": 1.379044132980194e-16,
+      "max_missing_face_area": 6.833955521972925e-17,
+      "max_extra_face_area": 5.462696610201905e-17,
+      "coverage_method": "power_complex",
+      "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+    }
+  }
+}

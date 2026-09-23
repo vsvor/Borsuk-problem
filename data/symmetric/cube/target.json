@@ -1,0 +1,109 @@
+{
+  "format_version": 1,
+  "family": "symmetric_comparison",
+  "solid": "cube",
+  "normalization": "inradius",
+  "inradius": 0.5,
+  "minimum_width": 1.0,
+  "tetrahedral_altitude": null,
+  "vertices": [
+    [
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    [
+      -0.5,
+      -0.5,
+      0.5
+    ],
+    [
+      -0.5,
+      0.5,
+      -0.5
+    ],
+    [
+      -0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      -0.5,
+      -0.5
+    ],
+    [
+      0.5,
+      -0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      -0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ]
+  ],
+  "vertex_count": 8,
+  "fixed_count": 8,
+  "facet_count": 6,
+  "target_volume": 1.0,
+  "target_diameter": 1.7320508075688772,
+  "analytic_definition": "scripts/symmetric_polyhedra.py:ideal_geometry",
+  "rational_outer_halfspaces": [
+    {
+      "normal": [
+        "-1",
+        "0",
+        "0"
+      ],
+      "rhs": "1/2"
+    },
+    {
+      "normal": [
+        "1",
+        "0",
+        "0"
+      ],
+      "rhs": "1/2"
+    },
+    {
+      "normal": [
+        "0",
+        "-1",
+        "0"
+      ],
+      "rhs": "1/2"
+    },
+    {
+      "normal": [
+        "0",
+        "1",
+        "0"
+      ],
+      "rhs": "1/2"
+    },
+    {
+      "normal": [
+        "0",
+        "0",
+        "-1"
+      ],
+      "rhs": "1/2"
+    },
+    {
+      "normal": [
+        "0",
+        "0",
+        "1"
+      ],
+      "rhs": "1/2"
+    }
+  ],
+  "enclosure_digits": 40,
+  "note": "Default 2*inradius=1, not unit diameter. The tetrahedral altitude and minimum width differ. Rational outer target uses integer-square-root interval bounds."
+}

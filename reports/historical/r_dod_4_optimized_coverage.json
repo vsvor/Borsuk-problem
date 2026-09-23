@@ -1,0 +1,1091 @@
+{
+  "input": "r_dod_4_optimized.txt",
+  "input_sha256": "0dc7efd15617c82c4a737ee85b00b88cb3805ba812b16e8f12d28dcf91e2d623",
+  "number_of_points": 43,
+  "groups": [
+    [
+      12,
+      23,
+      13,
+      0,
+      24,
+      25,
+      26,
+      1,
+      27,
+      28,
+      29,
+      30,
+      21,
+      11,
+      31,
+      32,
+      33
+    ],
+    [
+      34,
+      27,
+      29,
+      15,
+      35,
+      36,
+      22,
+      20,
+      30,
+      37,
+      16,
+      38,
+      33,
+      39,
+      31,
+      5,
+      4
+    ],
+    [
+      40,
+      41,
+      14,
+      19,
+      36,
+      35,
+      34,
+      42,
+      17,
+      18,
+      26,
+      24,
+      27,
+      29,
+      28
+    ],
+    [
+      27,
+      6,
+      38,
+      24,
+      9,
+      39,
+      33,
+      8,
+      32,
+      40,
+      7,
+      41,
+      2,
+      34,
+      42,
+      37,
+      25,
+      3,
+      23,
+      10
+    ]
+  ],
+  "indexing": "zero-based",
+  "stored_value": 0.9697677618614492,
+  "target": {
+    "description": "x,y,z <= 1/2; |x_i|+|x_j| <= 1/sqrt(2)",
+    "face_count": 15,
+    "vertex_count": 23,
+    "volume": 0.6715728752538099,
+    "volume_formula": "7/2 - 2*sqrt(2)",
+    "volume_decimal": "0.67157287525380990239662255158060384286065624924610385364664",
+    "volume_from_first_23_points": 0.6715728752538097
+  },
+  "common_vertex_indices": [
+    27
+  ],
+  "hulls": [
+    {
+      "hull": 1,
+      "vertex_count": 17,
+      "volume": 0.18490607588719454,
+      "diameter": 0.9697677618614491,
+      "diameter_pair": [
+        26,
+        33
+      ],
+      "clipped_volume": 0.18490607588719463,
+      "clipped_diameter": 0.9697677618614492,
+      "clipped_diameter_points": [
+        [
+          -0.407302342918,
+          -0.2998044382685474,
+          0.29980443826854775
+        ],
+        [
+          0.5,
+          -0.006077038197748408,
+          0.12380391290307859
+        ]
+      ]
+    },
+    {
+      "hull": 2,
+      "vertex_count": 17,
+      "volume": 0.17834992073535505,
+      "diameter": 0.969767761861448,
+      "diameter_pair": [
+        36,
+        33
+      ],
+      "clipped_volume": 0.17834992073535513,
+      "clipped_diameter": 0.9697677618614481,
+      "clipped_diameter_points": [
+        [
+          0.5,
+          -0.006077038197748437,
+          0.12380391290307854
+        ],
+        [
+          -0.2246584881915846,
+          -0.22465848819158452,
+          -0.48244829299496295
+        ]
+      ]
+    },
+    {
+      "hull": 3,
+      "vertex_count": 15,
+      "volume": 0.15737152425588338,
+      "diameter": 0.9697677618614491,
+      "diameter_pair": [
+        40,
+        28
+      ],
+      "clipped_volume": 0.1573715242558834,
+      "clipped_diameter": 0.9697677618614492,
+      "clipped_diameter_points": [
+        [
+          -0.23870893280624272,
+          -0.46839784838030485,
+          -0.23870893280624264
+        ],
+        [
+          -0.20710678118654752,
+          0.5000000000000001,
+          -0.19800975331615775
+        ]
+      ]
+    },
+    {
+      "hull": 4,
+      "vertex_count": 20,
+      "volume": 0.17686528609875468,
+      "diameter": 0.9697677618614492,
+      "diameter_pair": [
+        42,
+        23
+      ],
+      "clipped_volume": 0.17686528609875468,
+      "clipped_diameter": 0.9697677618614492,
+      "clipped_diameter_points": [
+        [
+          0.20710678118654746,
+          -0.02567110004096898,
+          0.5
+        ],
+        [
+          -0.1980097533161584,
+          0.5,
+          -0.20710678118654757
+        ]
+      ]
+    }
+  ],
+  "intersections": [
+    {
+      "hulls": [
+        1
+      ],
+      "volume": 0.18490607588719454,
+      "inside_target_volume": 0.18490607588719463,
+      "diagnostics": {
+        "inscribed_radius": 0.23767496473847458,
+        "vertices": 17,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.23767496473847458,
+        "vertices": 17,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        2
+      ],
+      "volume": 0.17834992073535508,
+      "inside_target_volume": 0.17834992073535513,
+      "diagnostics": {
+        "inscribed_radius": 0.2327039468400845,
+        "vertices": 17,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.2327039468400845,
+        "vertices": 17,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        3
+      ],
+      "volume": 0.15737152425588344,
+      "inside_target_volume": 0.1573715242558834,
+      "diagnostics": {
+        "inscribed_radius": 0.24365839459971425,
+        "vertices": 15,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.24365839459971422,
+        "vertices": 15,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        4
+      ],
+      "volume": 0.1768652860987547,
+      "inside_target_volume": 0.17686528609875468,
+      "diagnostics": {
+        "inscribed_radius": 0.23808147663558044,
+        "vertices": 20,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.23808147663558052,
+        "vertices": 20,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        1,
+        2
+      ],
+      "volume": 0.0023244823312106562,
+      "inside_target_volume": 0.0023244823312106562,
+      "diagnostics": {
+        "inscribed_radius": 0.010838386730674299,
+        "vertices": 5,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.010838386730674299,
+        "vertices": 5,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        1,
+        3
+      ],
+      "volume": 0.006788362492212615,
+      "inside_target_volume": 0.006788362492212615,
+      "diagnostics": {
+        "inscribed_radius": 0.03550333372249785,
+        "vertices": 5,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.03550333372249785,
+        "vertices": 5,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        1,
+        4
+      ],
+      "volume": 0.002959261034548898,
+      "inside_target_volume": 0.002959261034548898,
+      "diagnostics": {
+        "inscribed_radius": 0.010285721790788164,
+        "vertices": 6,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.010285721790788164,
+        "vertices": 6,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        2,
+        3
+      ],
+      "volume": 0.0021221027809182084,
+      "inside_target_volume": 0.0021221027809182084,
+      "diagnostics": {
+        "inscribed_radius": 0.01081706500079034,
+        "vertices": 5,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.01081706500079034,
+        "vertices": 5,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        2,
+        4
+      ],
+      "volume": 0.004830587562539892,
+      "inside_target_volume": 0.004830587562539892,
+      "diagnostics": {
+        "inscribed_radius": 0.019971485597400022,
+        "vertices": 6,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.019971485597400022,
+        "vertices": 6,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        3,
+        4
+      ],
+      "volume": 0.00689513552194766,
+      "inside_target_volume": 0.00689513552194766,
+      "diagnostics": {
+        "inscribed_radius": 0.034928090368533685,
+        "vertices": 6,
+        "lower_dimensional": false
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": 0.034928090368533685,
+        "vertices": 6,
+        "lower_dimensional": false
+      }
+    },
+    {
+      "hulls": [
+        1,
+        2,
+        3
+      ],
+      "volume": 0.0,
+      "inside_target_volume": 0.0,
+      "diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      }
+    },
+    {
+      "hulls": [
+        1,
+        2,
+        4
+      ],
+      "volume": 0.0,
+      "inside_target_volume": 0.0,
+      "diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      }
+    },
+    {
+      "hulls": [
+        1,
+        3,
+        4
+      ],
+      "volume": 0.0,
+      "inside_target_volume": 0.0,
+      "diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      }
+    },
+    {
+      "hulls": [
+        2,
+        3,
+        4
+      ],
+      "volume": 0.0,
+      "inside_target_volume": 0.0,
+      "diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      }
+    },
+    {
+      "hulls": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "volume": 0.0,
+      "inside_target_volume": 0.0,
+      "diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      },
+      "inside_diagnostics": {
+        "inscribed_radius": -0.0,
+        "lower_dimensional": true
+      }
+    }
+  ],
+  "volumes": {
+    "union": 0.6715728752538099,
+    "union_inside_target": 0.6715728752538102,
+    "symmetric_difference": -4.440892098500626e-16,
+    "uncovered": -2.220446049250313e-16,
+    "uncovered_fraction": -3.3063367075555755e-16,
+    "outside_target": -2.220446049250313e-16,
+    "outside_target_fraction": -3.3063367075555755e-16,
+    "note": "Inclusion-exclusion, including all six pairwise overlaps; not a sum-of-volumes test."
+  },
+  "outward_error": {
+    "index": 0,
+    "distance_to_target": 0.0,
+    "closest_target_point": [
+      -0.20710678118654746,
+      -0.20710678118654746,
+      0.5
+    ],
+    "max_normalized_plane_violation": 0.0
+  },
+  "vertex_target_distances": [
+    {
+      "index": 0,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.20710678118654746,
+        -0.20710678118654746,
+        0.5
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 1,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.35355339059327373,
+        -0.35355339059327373,
+        0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 2,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.35355339059327373,
+        0.35355339059327373,
+        0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 3,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.20710678118654746,
+        0.20710678118654746,
+        0.5
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 4,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        -0.20710678118654746,
+        -0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 5,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        0.20710678118654746,
+        -0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 6,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.20710678118654746,
+        0.5,
+        0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 7,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.20710678118654746,
+        0.5,
+        0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 8,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        0.20710678118654746,
+        0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 9,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.35355339059327373,
+        0.35355339059327373,
+        0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 10,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.20710678118654746,
+        0.20710678118654746,
+        0.5
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 11,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        -0.20710678118654746,
+        0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 12,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.20710678118654746,
+        -0.20710678118654746,
+        0.5
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 13,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.35355339059327373,
+        -0.35355339059327373,
+        0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 14,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 15,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.35355339059327373,
+        0.35355339059327373,
+        -0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 16,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.20710678118654746,
+        0.5,
+        -0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 17,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.35355339059327373,
+        0.35355339059327373,
+        -0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 18,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.20710678118654746,
+        0.5,
+        -0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 19,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.35355339059327373,
+        -0.35355339059327373,
+        -0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 20,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.35355339059327373,
+        -0.35355339059327373,
+        -0.35355339059327373
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 21,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 22,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.0,
+        0.0,
+        -0.7071067811865475
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 23,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.20710678118654746,
+        -0.025671100040969008,
+        0.5
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 24,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.3538707209629118,
+        -0.02309498977674157,
+        0.35323606022363574
+      ],
+      "max_normalized_plane_violation": -5.551115123125783e-17
+    },
+    {
+      "index": 25,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.2071067811865475,
+        -0.05086057653842552,
+        0.5
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 26,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.40730234291799994,
+        -0.2998044382685475,
+        0.29980443826854747
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 27,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.009418137648822628,
+        -0.006306359326716832,
+        -0.0079313261483126
+      ],
+      "max_normalized_plane_violation": -0.48773207649909517
+    },
+    {
+      "index": 28,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.23870893280624272,
+        -0.46839784838030485,
+        -0.23870893280624267
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 29,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.1602977348514587,
+        -0.3845489548316411,
+        -0.3225578263549065
+      ],
+      "max_normalized_plane_violation": -5.551115123125783e-17
+    },
+    {
+      "index": 30,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.24782083727752893,
+        -0.45928594390901856,
+        -0.24782083727752893
+      ],
+      "max_normalized_plane_violation": -5.551115123125783e-17
+    },
+    {
+      "index": 31,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        -0.20710678118654743,
+        0.020442739648242263
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 32,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        -0.0256711000409666,
+        0.20710678118654746
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 33,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        -0.006077038197748422,
+        0.12380391290307857
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 34,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.13675097842944922,
+        0.43049695595558135,
+        -0.2766098252309661
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 35,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.20544816806817662,
+        0.2054481680681767,
+        -0.5016586131183708
+      ],
+      "max_normalized_plane_violation": -5.551115123125783e-17
+    },
+    {
+      "index": 36,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.22465848819158457,
+        -0.22465848819158454,
+        -0.48244829299496295
+      ],
+      "max_normalized_plane_violation": -5.551115123125783e-17
+    },
+    {
+      "index": 37,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.15068386093439845,
+        0.5,
+        -0.20710678118654752
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 38,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.2071067811865475,
+        0.5,
+        -0.18017924833298393
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 39,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        0.5,
+        0.2071067811865475,
+        -0.01965685717109017
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 40,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.20710678118654752,
+        0.5,
+        -0.19800975331615772
+      ],
+      "max_normalized_plane_violation": 0.0
+    },
+    {
+      "index": 41,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.3984614689343667,
+        0.3086453122521808,
+        0.3086453122521808
+      ],
+      "max_normalized_plane_violation": -1.1102230246251565e-16
+    },
+    {
+      "index": 42,
+      "distance_to_target": 0.0,
+      "closest_target_point": [
+        -0.19800975331615858,
+        0.5,
+        -0.20710678118654743
+      ],
+      "max_normalized_plane_violation": 0.0
+    }
+  ],
+  "auxiliary_boundary_construction": {
+    "largest_vertex_projection": 2.3551386880256624e-16,
+    "largest_projection_index": 0,
+    "face_checks": [
+      {
+        "face_id": 0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "area": 0.17157287525381007,
+        "uncovered_area_projected": 1.7245103777198202e-17
+      },
+      {
+        "face_id": 1,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "area": 0.17157287525381007,
+        "uncovered_area_projected": 2.7832567691440075e-17
+      },
+      {
+        "face_id": 2,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "area": 0.17157287525381007,
+        "uncovered_area_projected": 1.1496735851465469e-17
+      },
+      {
+        "face_id": 3,
+        "normal": [
+          -0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ],
+        "area": 0.3535533905932738,
+        "uncovered_area_projected": 3.469446951953614e-18
+      },
+      {
+        "face_id": 4,
+        "normal": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "area": 0.2928932188134525,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 5,
+        "normal": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ],
+        "area": 0.2928932188134525,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 6,
+        "normal": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "area": 0.23223304703363115,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 7,
+        "normal": [
+          -0.7071067811865475,
+          0.0,
+          -0.7071067811865475
+        ],
+        "area": 0.3535533905932738,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 8,
+        "normal": [
+          -0.7071067811865475,
+          0.0,
+          0.7071067811865475
+        ],
+        "area": 0.2928932188134525,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 9,
+        "normal": [
+          0.7071067811865475,
+          0.0,
+          -0.7071067811865475
+        ],
+        "area": 0.2928932188134525,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 10,
+        "normal": [
+          0.7071067811865475,
+          0.0,
+          0.7071067811865475
+        ],
+        "area": 0.23223304703363115,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 11,
+        "normal": [
+          0.0,
+          -0.7071067811865475,
+          -0.7071067811865475
+        ],
+        "area": 0.3535533905932738,
+        "uncovered_area_projected": 1.3877787807814457e-17
+      },
+      {
+        "face_id": 12,
+        "normal": [
+          0.0,
+          -0.7071067811865475,
+          0.7071067811865475
+        ],
+        "area": 0.2928932188134525,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 13,
+        "normal": [
+          0.0,
+          0.7071067811865475,
+          -0.7071067811865475
+        ],
+        "area": 0.2928932188134525,
+        "uncovered_area_projected": 0.0
+      },
+      {
+        "face_id": 14,
+        "normal": [
+          0.0,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "area": 0.23223304703363115,
+        "uncovered_area_projected": 0.0
+      }
+    ],
+    "note": "Only a device to cover the target boundary; all distances above and below use original input hulls."
+  },
+  "cover_distance": {
+    "lower_numerical": 1.0007415106216802e-16,
+    "upper_numerical": 1.0007415106216802e-16,
+    "witness": [
+      -0.20710678118654763,
+      0.5,
+      -0.20710678118654763
+    ],
+    "witness_face": 1,
+    "distances_to_four_hulls_at_witness": [
+      0.5788763176777473,
+      0.12087714938927252,
+      1.0007415106216802e-16,
+      0.006410062085543224
+    ],
+    "initial_triangles": 80,
+    "subdivisions": 0,
+    "requested_subdivision_tolerance": 1e-13,
+    "arithmetic_note": "Floating-point bounds; no outward-rounded interval arithmetic."
+  },
+  "largest_hull_diameter": 0.9697677618614492,
+  "diameter_exceedances": []
+}

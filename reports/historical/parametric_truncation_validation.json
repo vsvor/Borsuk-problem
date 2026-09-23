@@ -1,0 +1,276 @@
+{
+  "format_version": 1,
+  "unit_tests_passed": 12,
+  "independent_halfspace_geometry_comparisons": 18,
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "shapely": "2.1.2"
+  },
+  "end_to_end_runs": [
+    {
+      "case": "adjacent",
+      "a": 0.02,
+      "b": 0.01,
+      "starts_completed": 48,
+      "workers": 2,
+      "seed": 17,
+      "target_vertices": 26,
+      "target_volume": 0.6610390884663964,
+      "target_diameter": 1.2421325286834142,
+      "partition_points": 45,
+      "diameter": 0.967911618372559,
+      "counts": {
+        "geometry_rejected": 2,
+        "converged": 3,
+        "lower_bound_pruned": 9,
+        "fixed_pair_pruned": 32,
+        "cached_lower_bound": 2
+      },
+      "geometry": {
+        "valid_numerically": true,
+        "max_plane_residual": 2.758088265960388e-16,
+        "max_outside_plane_violation": 1.379044132980194e-16,
+        "max_missing_face_area": 3.747090322641564e-17,
+        "max_extra_face_area": 1.4280469574786065e-17,
+        "coverage_method": "power_complex",
+        "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+      },
+      "max_raw_coordinate_violation": 1.1102230246251565e-16,
+      "per_cell_diameters": [
+        {
+          "hull": 1,
+          "diameter": 0.967911618372559,
+          "pair": [
+            30,
+            36
+          ]
+        },
+        {
+          "hull": 2,
+          "diameter": 0.9679116183725383,
+          "pair": [
+            36,
+            41
+          ]
+        },
+        {
+          "hull": 3,
+          "diameter": 0.9679116183724716,
+          "pair": [
+            38,
+            43
+          ]
+        },
+        {
+          "hull": 4,
+          "diameter": 0.9679116183725003,
+          "pair": [
+            30,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "case": "opposite",
+      "a": 0.02,
+      "b": 0.01,
+      "starts_completed": 40,
+      "workers": 2,
+      "seed": 17,
+      "target_vertices": 26,
+      "target_volume": 0.6610390884663959,
+      "target_diameter": 1.4142135623730951,
+      "partition_points": 44,
+      "diameter": 0.9747950614322932,
+      "counts": {
+        "converged": 6,
+        "geometry_rejected": 1,
+        "fixed_pair_pruned": 30,
+        "cached_lower_bound": 3
+      },
+      "geometry": {
+        "valid_numerically": true,
+        "max_plane_residual": 1.5700924586837752e-16,
+        "max_outside_plane_violation": 7.850462293418876e-17,
+        "max_missing_face_area": 2.1627641209386913e-17,
+        "max_extra_face_area": 1.2359904766334754e-17,
+        "coverage_method": "power_complex",
+        "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+      },
+      "max_raw_coordinate_violation": 1.1102230246251565e-16,
+      "per_cell_diameters": [
+        {
+          "hull": 1,
+          "diameter": 0.9747945303093507,
+          "pair": [
+            29,
+            34
+          ]
+        },
+        {
+          "hull": 2,
+          "diameter": 0.9747950614322932,
+          "pair": [
+            38,
+            39
+          ]
+        },
+        {
+          "hull": 3,
+          "diameter": 0.9747950614322928,
+          "pair": [
+            38,
+            42
+          ]
+        },
+        {
+          "hull": 4,
+          "diameter": 0.9747950614322922,
+          "pair": [
+            39,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "case": "adjacent",
+      "a": -0.02,
+      "b": 0.04,
+      "starts_completed": 30,
+      "workers": 2,
+      "seed": 19,
+      "target_vertices": 26,
+      "target_volume": 0.6476810131781765,
+      "target_diameter": 1.2421325286834142,
+      "partition_points": 46,
+      "diameter": 0.9699951984240192,
+      "counts": {
+        "converged": 5,
+        "lower_bound_pruned": 4,
+        "fixed_pair_pruned": 19,
+        "cached_lower_bound": 2
+      },
+      "geometry": {
+        "valid_numerically": true,
+        "max_plane_residual": 6.89522066490097e-17,
+        "max_outside_plane_violation": 6.89522066490097e-17,
+        "max_missing_face_area": 4.259639460186613e-17,
+        "max_extra_face_area": 2.14207043621791e-17,
+        "coverage_method": "power_complex",
+        "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+      },
+      "max_raw_coordinate_violation": 1.1102230246251565e-16,
+      "per_cell_diameters": [
+        {
+          "hull": 1,
+          "diameter": 0.9699951984240192,
+          "pair": [
+            28,
+            34
+          ]
+        },
+        {
+          "hull": 2,
+          "diameter": 0.9699951984240168,
+          "pair": [
+            34,
+            40
+          ]
+        },
+        {
+          "hull": 3,
+          "diameter": 0.9699951984240169,
+          "pair": [
+            28,
+            40
+          ]
+        },
+        {
+          "hull": 4,
+          "diameter": 0.9678036116667738,
+          "pair": [
+            26,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "case": "adjacent",
+      "a": 0.2,
+      "b": 0.6,
+      "starts_completed": 12,
+      "workers": 2,
+      "seed": 3,
+      "target_vertices": 20,
+      "target_volume": 0.2509535871283869,
+      "target_diameter": 1.1538942163717363,
+      "partition_points": 35,
+      "diameter": 0.8913214446050192,
+      "counts": {
+        "converged": 2,
+        "lower_bound_pruned": 2,
+        "fixed_pair_pruned": 8
+      },
+      "geometry": {
+        "valid_numerically": true,
+        "max_plane_residual": 1.281079926997704e-16,
+        "max_outside_plane_violation": 1.281079926997704e-16,
+        "max_missing_face_area": 9.238941990453603e-18,
+        "max_extra_face_area": 9.238941990453603e-18,
+        "coverage_method": "power_complex",
+        "note": "Boundary areas are not distances; interior coverage uses the reference deformation argument. Floating-point, not interval-certified."
+      },
+      "max_raw_coordinate_violation": 2.7755575615628914e-17,
+      "per_cell_diameters": [
+        {
+          "hull": 1,
+          "diameter": 0.891321444605018,
+          "pair": [
+            23,
+            26
+          ]
+        },
+        {
+          "hull": 2,
+          "diameter": 0.8913214446050192,
+          "pair": [
+            26,
+            31
+          ]
+        },
+        {
+          "hull": 3,
+          "diameter": 0.8913214446050174,
+          "pair": [
+            24,
+            31
+          ]
+        },
+        {
+          "hull": 4,
+          "diameter": 0.8068020006721999,
+          "pair": [
+            24,
+            29
+          ]
+        }
+      ]
+    }
+  ],
+  "checked": [
+    "parallel workers",
+    "best and previous-best records",
+    "same-target resume adds 8 attempts",
+    "target-diameter stops with zero new attempts when incumbent already qualifies",
+    "different a,b with --resume is rejected without changing target/best/state",
+    "physical diameter and target containment recomputed",
+    "record reference and geometry independently reconstructed through model_from_record"
+  ],
+  "interpretation": "Functional tests and finite-start results, not global optimization certificates.",
+  "original_backend_sha256": "03a5b87b5a042c1d2c29a804b79c6e8720fb053e4c358df1ebb4ba83abee35bd"
+}

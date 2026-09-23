@@ -1,0 +1,17 @@
+{
+  "points": 439,
+  "edges": 27264,
+  "lower_bound": "1939195507/2000000000",
+  "minimum_edge_squared_numerator": 940119803621223400918278,
+  "squared_distance_denominator": 1000000000000000000000000,
+  "all_points_inside_exact_target": true,
+  "status": "EXACT_LOWER_BOUND_VERIFIED",
+  "lower_bound_decimal": "0.9695977535",
+  "coloring_proof": {
+    "nodes": 142,
+    "contradiction_leaves": 72,
+    "branch_nodes": 70
+  },
+  "elapsed_seconds": 2.6246603950000917,
+  "arithmetic": "Integer/rational geometry and exhaustive finite graph proof; no floating point decisions."
+}

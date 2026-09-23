@@ -1,0 +1,527 @@
+{
+  "solid": "tetrahedron",
+  "normalization": "inradius_1/2",
+  "raw_points_exact": [
+    [
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "-1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1/3",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "-1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1/3",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1/3",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "1/3",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "-1/3",
+        "sqrt5": "0"
+      }
+    ],
+    [
+      {
+        "rational": "1",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      },
+      {
+        "rational": "0",
+        "sqrt5": "0"
+      }
+    ]
+  ],
+  "physical_scale_squared": {
+    "rational": "3/4",
+    "sqrt5": "0"
+  },
+  "fixed_count": 4,
+  "point_count": 15,
+  "groups": [
+    [
+      4,
+      0,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    [
+      4,
+      5,
+      1,
+      6,
+      11,
+      8,
+      12,
+      13
+    ],
+    [
+      4,
+      7,
+      11,
+      8,
+      2,
+      10,
+      14,
+      13
+    ],
+    [
+      6,
+      8,
+      9,
+      12,
+      10,
+      14,
+      13,
+      3
+    ]
+  ],
+  "cells": [
+    {
+      "cell": 1,
+      "memberships": [
+        4,
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "diameter_squared": {
+        "rational": "9/4",
+        "sqrt5": "0"
+      },
+      "diameter_interval": [
+        "1.500000000000000",
+        "1.500000000000000"
+      ],
+      "maximizing_pairs": [
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "cell": 2,
+      "memberships": [
+        4,
+        5,
+        1,
+        6,
+        11,
+        8,
+        12,
+        13
+      ],
+      "diameter_squared": {
+        "rational": "9/4",
+        "sqrt5": "0"
+      },
+      "diameter_interval": [
+        "1.500000000000000",
+        "1.500000000000000"
+      ],
+      "maximizing_pairs": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "cell": 3,
+      "memberships": [
+        4,
+        7,
+        11,
+        8,
+        2,
+        10,
+        14,
+        13
+      ],
+      "diameter_squared": {
+        "rational": "9/4",
+        "sqrt5": "0"
+      },
+      "diameter_interval": [
+        "1.500000000000000",
+        "1.500000000000000"
+      ],
+      "maximizing_pairs": [
+        [
+          8,
+          2
+        ]
+      ]
+    },
+    {
+      "cell": 4,
+      "memberships": [
+        6,
+        8,
+        9,
+        12,
+        10,
+        14,
+        13,
+        3
+      ],
+      "diameter_squared": {
+        "rational": "9/4",
+        "sqrt5": "0"
+      },
+      "diameter_interval": [
+        "1.500000000000000",
+        "1.500000000000000"
+      ],
+      "maximizing_pairs": [
+        [
+          8,
+          3
+        ]
+      ]
+    }
+  ],
+  "maximum_diameter_squared": {
+    "rational": "9/4",
+    "sqrt5": "0"
+  },
+  "maximum_diameter_interval": [
+    "1.500000000000000",
+    "1.500000000000000"
+  ],
+  "coverage_proved": true,
+  "coverage_method": "Exact raw rational volume inclusion-exclusion",
+  "full_volume_check": {
+    "covered": true,
+    "target_volume_approx": 2.6666666666666665,
+    "missing_volume_approx": 0.0,
+    "missing_volume_exact_zero": true,
+    "missing_volume_exact": {
+      "numerator_hex": "0x0",
+      "denominator_hex": "0x1"
+    },
+    "intersections": [
+      {
+        "cells": [
+          1
+        ],
+        "volume_approx": 0.6666666666666666,
+        "exact_zero_volume": false
+      },
+      {
+        "cells": [
+          2
+        ],
+        "volume_approx": 0.6666666666666666,
+        "exact_zero_volume": false
+      },
+      {
+        "cells": [
+          3
+        ],
+        "volume_approx": 0.6666666666666666,
+        "exact_zero_volume": false
+      },
+      {
+        "cells": [
+          4
+        ],
+        "volume_approx": 0.6666666666666666,
+        "exact_zero_volume": false
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          1,
+          3
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          1,
+          4
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          2,
+          3
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          2,
+          4
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          3,
+          4
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          1,
+          2,
+          3
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          1,
+          2,
+          4
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          1,
+          3,
+          4
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          2,
+          3,
+          4
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      },
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "volume_approx": 0.0,
+        "exact_zero_volume": true
+      }
+    ]
+  },
+  "convex_interiors_disjoint": true,
+  "global_lower_bound": {
+    "proved": true,
+    "diameter_squared": {
+      "rational": "9/4",
+      "sqrt5": "0"
+    },
+    "argument": "Four tetrahedral vertices are pairwise distance sqrt(6). Below 3/2 they must lie in distinct cells. The origin lies in some cell and is distance 3/2 from that cell's vertex."
+  }
+}

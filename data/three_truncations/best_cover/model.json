@@ -1,0 +1,2143 @@
+{
+  "format_version": 1,
+  "input": "/mnt/data/r_dod_4_0966.txt",
+  "input_sha256": "ed6237d973c39680406fa2e24d6bd3b52df2fc1c26a7eed767181f4a346f36d8",
+  "output": "/mnt/data/r_dod_4_optimized.txt",
+  "indexing": "zero-based; hull numbers one-based",
+  "stored_input_diameter": 0.9659675580485875,
+  "actual_initial_diameter": 1.0442005345769627,
+  "initial_face_compatible_diameter": 1.0442006874350727,
+  "max_initial_face_correction": 3.700041420229062e-07,
+  "optimized_max_diameter": 0.9697677618614492,
+  "absolute_improvement": 0.07443277271551352,
+  "relative_improvement": 0.07128206723784958,
+  "initial_hulls": [
+    {
+      "hull": 1,
+      "diameter": 1.0302018904358574,
+      "pair": [
+        26,
+        33
+      ],
+      "listed_point_count": 17
+    },
+    {
+      "hull": 2,
+      "diameter": 0.9659673202475207,
+      "pair": [
+        29,
+        38
+      ],
+      "listed_point_count": 17
+    },
+    {
+      "hull": 3,
+      "diameter": 1.0442005345769627,
+      "pair": [
+        40,
+        28
+      ],
+      "listed_point_count": 15
+    },
+    {
+      "hull": 4,
+      "diameter": 0.9659675580485875,
+      "pair": [
+        32,
+        41
+      ],
+      "listed_point_count": 20
+    }
+  ],
+  "optimized_hulls": [
+    {
+      "hull": 1,
+      "diameter": 0.9697677618614491,
+      "pair": [
+        26,
+        33
+      ],
+      "listed_point_count": 17
+    },
+    {
+      "hull": 2,
+      "diameter": 0.969767761861448,
+      "pair": [
+        36,
+        33
+      ],
+      "listed_point_count": 17
+    },
+    {
+      "hull": 3,
+      "diameter": 0.9697677618614491,
+      "pair": [
+        40,
+        28
+      ],
+      "listed_point_count": 15
+    },
+    {
+      "hull": 4,
+      "diameter": 0.9697677618614492,
+      "pair": [
+        42,
+        23
+      ],
+      "listed_point_count": 20
+    }
+  ],
+  "solver": {
+    "method": "SLSQP",
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully",
+    "iterations": 9,
+    "function_evaluations": 10,
+    "ftol": 1e-13,
+    "final_epigraph_squared_diameter": 0.9404495119457683,
+    "elapsed_seconds": 0.01618729799997709,
+    "incumbent_squared_diameter": 0.9404495119457645
+  },
+  "optimality_bound": {
+    "success": true,
+    "scope": "Fixed memberships, fixed target vertices, and recorded face/edge incidences only.",
+    "tangent_lp_squared_lower": 0.9404495119457629,
+    "residual_corrected_squared_lower": 0.9404495119457627,
+    "squared_numerical_safety_allowance": 1e-11,
+    "diameter_lower_with_allowance": 0.9697677618562924,
+    "diameter_upper": 0.9697677618614492,
+    "diameter_gap_with_allowance": 5.156763904778927e-12,
+    "dual_stationarity_l1_residual": 6.605544087515298e-17,
+    "box_half_width": 5.1815405503520555,
+    "distance_dual_weights": [
+      {
+        "pair": [
+          22,
+          33
+        ],
+        "weight": 0.01627624858209193
+      },
+      {
+        "pair": [
+          23,
+          28
+        ],
+        "weight": 0.05885490323331853
+      },
+      {
+        "pair": [
+          23,
+          42
+        ],
+        "weight": 0.04956833261383898
+      },
+      {
+        "pair": [
+          26,
+          33
+        ],
+        "weight": 0.21687041328568382
+      },
+      {
+        "pair": [
+          26,
+          42
+        ],
+        "weight": 0.08647252597388733
+      },
+      {
+        "pair": [
+          28,
+          42
+        ],
+        "weight": 0.04872069324128881
+      },
+      {
+        "pair": [
+          33,
+          36
+        ],
+        "weight": 0.12973992422924974
+      },
+      {
+        "pair": [
+          33,
+          41
+        ],
+        "weight": 0.29219600035074245
+      },
+      {
+        "pair": [
+          36,
+          41
+        ],
+        "weight": 0.10130095848989848
+      }
+    ],
+    "target_dual_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "arithmetic_note": "Numerical dual bound with explicit residual correction and safety allowance; not outward-rounded interval arithmetic or a proof about all partitions."
+  },
+  "coverage_check": {
+    "valid_numerically": true,
+    "tolerance": 5e-10,
+    "max_affine_plane_residual": 1.1102230246251565e-16,
+    "max_normalized_outside_violation": 1.1102230246251565e-16,
+    "max_fixed_vertex_displacement": 0.0,
+    "max_missing_face_area": 5.74836792573273e-18,
+    "total_missing_face_area": 1.3236014470102203e-17,
+    "common_point": 27,
+    "faces": [
+      {
+        "face": 0,
+        "area": 0.35355339059327373,
+        "missing_area": 0.0,
+        "outside_area": 1.734723475976807e-17,
+        "overlap_area": 5.551115123125783e-17
+      },
+      {
+        "face": 1,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 2,
+        "area": 0.35355339059327373,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 3,
+        "area": 0.1715728752538098,
+        "missing_area": 5.74836792573273e-18,
+        "outside_area": 0.0,
+        "overlap_area": -2.7755575615628914e-17
+      },
+      {
+        "face": 4,
+        "area": 0.1715728752538098,
+        "missing_area": 0.0,
+        "outside_area": 5.74836792573273e-18,
+        "overlap_area": 2.7755575615628914e-17
+      },
+      {
+        "face": 5,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 2.5457946167215998e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 6,
+        "area": 0.1715728752538098,
+        "missing_area": 1.7392786186367435e-18,
+        "outside_area": 2.526328239139016e-17,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 7,
+        "area": 0.2928932188134525,
+        "missing_area": 5.74836792573273e-18,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 8,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 8.673617379884035e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 9,
+        "area": 0.35355339059327373,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 5.551115123125783e-17
+      },
+      {
+        "face": 10,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 9.217814877686344e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 11,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 12,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 13,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 14,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": -2.7755575615628914e-17
+      }
+    ],
+    "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+  },
+  "initial_coverage_after_snapping": {
+    "valid_numerically": true,
+    "tolerance": 1e-09,
+    "max_affine_plane_residual": 1.1102230246251565e-16,
+    "max_normalized_outside_violation": 1.1102230246251565e-16,
+    "max_fixed_vertex_displacement": 0.0,
+    "max_missing_face_area": 1.0408340855860843e-17,
+    "total_missing_face_area": 3.08617426730053e-17,
+    "common_point": 27,
+    "faces": [
+      {
+        "face": 0,
+        "area": 0.35355339059327373,
+        "missing_area": 6.938893903907228e-18,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      },
+      {
+        "face": 1,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 2,
+        "area": 0.35355339059327373,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 3,
+        "area": 0.1715728752538098,
+        "missing_area": 5.74836792573273e-18,
+        "outside_area": 0.0,
+        "overlap_area": -2.7755575615628914e-17
+      },
+      {
+        "face": 4,
+        "area": 0.1715728752538098,
+        "missing_area": 0.0,
+        "outside_area": 5.74836792573273e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 5,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 2.7546646990728675e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 6,
+        "area": 0.1715728752538098,
+        "missing_area": 2.017772061771767e-18,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 7,
+        "area": 0.2928932188134525,
+        "missing_area": 5.74836792573273e-18,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 8,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 1.0408340855860843e-17,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 9,
+        "area": 0.35355339059327373,
+        "missing_area": 1.0408340855860843e-17,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 10,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 5.74836792573273e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 11,
+        "area": 0.2928932188134525,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 12,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      },
+      {
+        "face": 13,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 14,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      }
+    ],
+    "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+  },
+  "gradient_check_max_error": 2.2075707928337351e-10,
+  "model": {
+    "fixed_count": 23,
+    "groups": [
+      [
+        12,
+        23,
+        13,
+        0,
+        24,
+        25,
+        26,
+        1,
+        27,
+        28,
+        29,
+        30,
+        21,
+        11,
+        31,
+        32,
+        33
+      ],
+      [
+        34,
+        27,
+        29,
+        15,
+        35,
+        36,
+        22,
+        20,
+        30,
+        37,
+        16,
+        38,
+        33,
+        39,
+        31,
+        5,
+        4
+      ],
+      [
+        40,
+        41,
+        14,
+        19,
+        36,
+        35,
+        34,
+        42,
+        17,
+        18,
+        26,
+        24,
+        27,
+        29,
+        28
+      ],
+      [
+        27,
+        6,
+        38,
+        24,
+        9,
+        39,
+        33,
+        8,
+        32,
+        40,
+        7,
+        41,
+        2,
+        34,
+        42,
+        37,
+        25,
+        3,
+        23,
+        10
+      ]
+    ],
+    "A": [
+      [
+        -0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      [
+        -0.0,
+        -0.7071067811865476,
+        -0.7071067811865476
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        0.7071067811865476,
+        -0.7071067811865476
+      ],
+      [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.7071067811865476,
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        -0.7071067811865476,
+        -0.0,
+        0.7071067811865476
+      ],
+      [
+        -0.7071067811865476,
+        -0.7071067811865476,
+        0.0
+      ],
+      [
+        0.7071067811865476,
+        -0.7071067811865476,
+        -0.0
+      ],
+      [
+        0.0,
+        -0.7071067811865476,
+        0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0
+      ],
+      [
+        -0.0,
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      [
+        0.7071067811865476,
+        -0.0,
+        0.7071067811865476
+      ]
+    ],
+    "b": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "reference_points": [
+      [
+        -0.20710678118654746,
+        -0.20710678118654746,
+        0.5
+      ],
+      [
+        -0.35355339059327373,
+        -0.35355339059327373,
+        0.35355339059327373
+      ],
+      [
+        -0.35355339059327373,
+        0.35355339059327373,
+        0.35355339059327373
+      ],
+      [
+        -0.20710678118654746,
+        0.20710678118654746,
+        0.5
+      ],
+      [
+        0.5,
+        -0.20710678118654746,
+        -0.20710678118654746
+      ],
+      [
+        0.5,
+        0.20710678118654746,
+        -0.20710678118654746
+      ],
+      [
+        0.20710678118654746,
+        0.5,
+        0.20710678118654746
+      ],
+      [
+        -0.20710678118654746,
+        0.5,
+        0.20710678118654746
+      ],
+      [
+        0.5,
+        0.20710678118654746,
+        0.20710678118654746
+      ],
+      [
+        0.35355339059327373,
+        0.35355339059327373,
+        0.35355339059327373
+      ],
+      [
+        0.20710678118654746,
+        0.20710678118654746,
+        0.5
+      ],
+      [
+        0.5,
+        -0.20710678118654746,
+        0.20710678118654746
+      ],
+      [
+        0.20710678118654746,
+        -0.20710678118654746,
+        0.5
+      ],
+      [
+        0.35355339059327373,
+        -0.35355339059327373,
+        0.35355339059327373
+      ],
+      [
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      [
+        0.35355339059327373,
+        0.35355339059327373,
+        -0.35355339059327373
+      ],
+      [
+        0.20710678118654746,
+        0.5,
+        -0.20710678118654746
+      ],
+      [
+        -0.35355339059327373,
+        0.35355339059327373,
+        -0.35355339059327373
+      ],
+      [
+        -0.20710678118654746,
+        0.5,
+        -0.20710678118654746
+      ],
+      [
+        -0.35355339059327373,
+        -0.35355339059327373,
+        -0.35355339059327373
+      ],
+      [
+        0.35355339059327373,
+        -0.35355339059327373,
+        -0.35355339059327373
+      ],
+      [
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.7071067811865475
+      ],
+      [
+        0.20710678118654746,
+        0.02851721847970036,
+        0.5
+      ],
+      [
+        -0.3538707209629118,
+        -0.02309498977674157,
+        0.35323606022363574
+      ],
+      [
+        -0.2071067811865475,
+        -0.05086057653842552,
+        0.5
+      ],
+      [
+        -0.4215279104980443,
+        -0.2855788706885032,
+        0.28557887068850313
+      ],
+      [
+        -0.009418137648822628,
+        -0.006306359326716832,
+        -0.0079313261483126
+      ],
+      [
+        -0.17106378862576754,
+        -0.53604299256078,
+        -0.1710637886257675
+      ],
+      [
+        -0.10997193873581386,
+        -0.40355639609844224,
+        -0.3035503850881053
+      ],
+      [
+        0.24764190940174088,
+        -0.4594648717848066,
+        -0.24764190940174088
+      ],
+      [
+        0.5,
+        -0.20710678118654743,
+        0.03711821625964999
+      ],
+      [
+        0.5,
+        -0.006791218559358518,
+        0.20710678118654746
+      ],
+      [
+        0.5,
+        0.11580563660508353,
+        0.059761498849141476
+      ],
+      [
+        -0.10356236830425151,
+        0.4401888326617917,
+        -0.26691794852475575
+      ],
+      [
+        -0.18210389869501778,
+        0.18210389869501786,
+        -0.5250028824915296
+      ],
+      [
+        -0.19569728841878214,
+        -0.19569728841878212,
+        -0.5114094927677654
+      ],
+      [
+        0.15068386093439845,
+        0.5,
+        -0.20710678118654752
+      ],
+      [
+        0.2071067811865475,
+        0.5,
+        -0.17650874421323043
+      ],
+      [
+        0.5,
+        0.2071067811865475,
+        0.021656595820631744
+      ],
+      [
+        -0.20710678118654752,
+        0.5,
+        -0.045880339668464665
+      ],
+      [
+        -0.41434364737193025,
+        0.2927631338146172,
+        0.2927631338146172
+      ],
+      [
+        -0.16790840211468616,
+        0.5,
+        -0.20710678118654743
+      ]
+    ],
+    "active_faces": [
+      [
+        4,
+        8,
+        11
+      ],
+      [
+        8,
+        9,
+        11
+      ],
+      [
+        7,
+        8,
+        13
+      ],
+      [
+        4,
+        8,
+        13
+      ],
+      [
+        1,
+        3,
+        10
+      ],
+      [
+        1,
+        3,
+        12
+      ],
+      [
+        6,
+        12,
+        13
+      ],
+      [
+        6,
+        7,
+        13
+      ],
+      [
+        3,
+        12,
+        14
+      ],
+      [
+        12,
+        13,
+        14
+      ],
+      [
+        4,
+        13,
+        14
+      ],
+      [
+        3,
+        10,
+        14
+      ],
+      [
+        4,
+        11,
+        14
+      ],
+      [
+        10,
+        11,
+        14
+      ],
+      [
+        0,
+        7,
+        8,
+        9
+      ],
+      [
+        1,
+        5,
+        12
+      ],
+      [
+        5,
+        6,
+        12
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        0,
+        2,
+        9
+      ],
+      [
+        1,
+        2,
+        10
+      ],
+      [
+        2,
+        9,
+        10,
+        11
+      ],
+      [
+        0,
+        1,
+        2,
+        5
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        8
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [],
+      [
+        2,
+        9
+      ],
+      [
+        2
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        3
+      ],
+      [
+        5
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "parameter_box_half_width": 5.1815405503520555,
+    "point_degrees_of_freedom": [
+      {
+        "point": 23,
+        "dimension": 1
+      },
+      {
+        "point": 24,
+        "dimension": 2
+      },
+      {
+        "point": 25,
+        "dimension": 1
+      },
+      {
+        "point": 26,
+        "dimension": 1
+      },
+      {
+        "point": 27,
+        "dimension": 3
+      },
+      {
+        "point": 28,
+        "dimension": 1
+      },
+      {
+        "point": 29,
+        "dimension": 2
+      },
+      {
+        "point": 30,
+        "dimension": 1
+      },
+      {
+        "point": 31,
+        "dimension": 1
+      },
+      {
+        "point": 32,
+        "dimension": 1
+      },
+      {
+        "point": 33,
+        "dimension": 2
+      },
+      {
+        "point": 34,
+        "dimension": 2
+      },
+      {
+        "point": 35,
+        "dimension": 1
+      },
+      {
+        "point": 36,
+        "dimension": 1
+      },
+      {
+        "point": 37,
+        "dimension": 1
+      },
+      {
+        "point": 38,
+        "dimension": 1
+      },
+      {
+        "point": 39,
+        "dimension": 1
+      },
+      {
+        "point": 40,
+        "dimension": 1
+      },
+      {
+        "point": 41,
+        "dimension": 1
+      },
+      {
+        "point": 42,
+        "dimension": 1
+      }
+    ],
+    "coverage_mesh": {
+      "valid_numerically": true,
+      "vertices": 42,
+      "edges": 120,
+      "triangle_count": 80,
+      "common_point": 27,
+      "triangles": [
+        {
+          "face": 0,
+          "vertices": [
+            14,
+            17,
+            19
+          ],
+          "owner": 3
+        },
+        {
+          "face": 0,
+          "vertices": [
+            17,
+            36,
+            19
+          ],
+          "owner": 3
+        },
+        {
+          "face": 0,
+          "vertices": [
+            35,
+            36,
+            17
+          ],
+          "owner": 3
+        },
+        {
+          "face": 0,
+          "vertices": [
+            36,
+            35,
+            22
+          ],
+          "owner": 2
+        },
+        {
+          "face": 1,
+          "vertices": [
+            22,
+            15,
+            20
+          ],
+          "owner": 2
+        },
+        {
+          "face": 1,
+          "vertices": [
+            5,
+            4,
+            20
+          ],
+          "owner": 2
+        },
+        {
+          "face": 1,
+          "vertices": [
+            15,
+            5,
+            20
+          ],
+          "owner": 2
+        },
+        {
+          "face": 2,
+          "vertices": [
+            36,
+            22,
+            20
+          ],
+          "owner": 2
+        },
+        {
+          "face": 2,
+          "vertices": [
+            29,
+            36,
+            20
+          ],
+          "owner": 2
+        },
+        {
+          "face": 2,
+          "vertices": [
+            29,
+            28,
+            19
+          ],
+          "owner": 3
+        },
+        {
+          "face": 2,
+          "vertices": [
+            36,
+            29,
+            19
+          ],
+          "owner": 3
+        },
+        {
+          "face": 2,
+          "vertices": [
+            30,
+            29,
+            20
+          ],
+          "owner": 2
+        },
+        {
+          "face": 2,
+          "vertices": [
+            28,
+            30,
+            21
+          ],
+          "owner": 1
+        },
+        {
+          "face": 2,
+          "vertices": [
+            29,
+            30,
+            28
+          ],
+          "owner": 1
+        },
+        {
+          "face": 3,
+          "vertices": [
+            8,
+            33,
+            39
+          ],
+          "owner": 4
+        },
+        {
+          "face": 3,
+          "vertices": [
+            5,
+            33,
+            4
+          ],
+          "owner": 2
+        },
+        {
+          "face": 3,
+          "vertices": [
+            33,
+            5,
+            39
+          ],
+          "owner": 2
+        },
+        {
+          "face": 3,
+          "vertices": [
+            33,
+            31,
+            4
+          ],
+          "owner": 2
+        },
+        {
+          "face": 3,
+          "vertices": [
+            32,
+            33,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 3,
+          "vertices": [
+            32,
+            31,
+            33
+          ],
+          "owner": 1
+        },
+        {
+          "face": 3,
+          "vertices": [
+            31,
+            32,
+            11
+          ],
+          "owner": 1
+        },
+        {
+          "face": 4,
+          "vertices": [
+            0,
+            12,
+            25
+          ],
+          "owner": 1
+        },
+        {
+          "face": 4,
+          "vertices": [
+            3,
+            23,
+            10
+          ],
+          "owner": 4
+        },
+        {
+          "face": 4,
+          "vertices": [
+            23,
+            3,
+            25
+          ],
+          "owner": 4
+        },
+        {
+          "face": 4,
+          "vertices": [
+            12,
+            23,
+            25
+          ],
+          "owner": 1
+        },
+        {
+          "face": 5,
+          "vertices": [
+            22,
+            35,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 5,
+          "vertices": [
+            35,
+            34,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 5,
+          "vertices": [
+            34,
+            35,
+            17
+          ],
+          "owner": 3
+        },
+        {
+          "face": 5,
+          "vertices": [
+            18,
+            34,
+            17
+          ],
+          "owner": 3
+        },
+        {
+          "face": 5,
+          "vertices": [
+            37,
+            16,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 5,
+          "vertices": [
+            34,
+            37,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 5,
+          "vertices": [
+            42,
+            34,
+            18
+          ],
+          "owner": 3
+        },
+        {
+          "face": 5,
+          "vertices": [
+            42,
+            37,
+            34
+          ],
+          "owner": 4
+        },
+        {
+          "face": 6,
+          "vertices": [
+            7,
+            6,
+            40
+          ],
+          "owner": 4
+        },
+        {
+          "face": 6,
+          "vertices": [
+            6,
+            37,
+            40
+          ],
+          "owner": 4
+        },
+        {
+          "face": 6,
+          "vertices": [
+            37,
+            6,
+            38
+          ],
+          "owner": 4
+        },
+        {
+          "face": 6,
+          "vertices": [
+            16,
+            37,
+            38
+          ],
+          "owner": 2
+        },
+        {
+          "face": 6,
+          "vertices": [
+            37,
+            42,
+            40
+          ],
+          "owner": 4
+        },
+        {
+          "face": 6,
+          "vertices": [
+            42,
+            18,
+            40
+          ],
+          "owner": 3
+        },
+        {
+          "face": 7,
+          "vertices": [
+            14,
+            41,
+            17
+          ],
+          "owner": 3
+        },
+        {
+          "face": 7,
+          "vertices": [
+            7,
+            41,
+            2
+          ],
+          "owner": 4
+        },
+        {
+          "face": 7,
+          "vertices": [
+            40,
+            41,
+            7
+          ],
+          "owner": 4
+        },
+        {
+          "face": 7,
+          "vertices": [
+            41,
+            40,
+            17
+          ],
+          "owner": 3
+        },
+        {
+          "face": 7,
+          "vertices": [
+            40,
+            18,
+            17
+          ],
+          "owner": 3
+        },
+        {
+          "face": 8,
+          "vertices": [
+            26,
+            24,
+            14
+          ],
+          "owner": 3
+        },
+        {
+          "face": 8,
+          "vertices": [
+            0,
+            26,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 8,
+          "vertices": [
+            26,
+            0,
+            24
+          ],
+          "owner": 1
+        },
+        {
+          "face": 8,
+          "vertices": [
+            24,
+            41,
+            14
+          ],
+          "owner": 3
+        },
+        {
+          "face": 8,
+          "vertices": [
+            41,
+            3,
+            2
+          ],
+          "owner": 4
+        },
+        {
+          "face": 8,
+          "vertices": [
+            3,
+            41,
+            24
+          ],
+          "owner": 4
+        },
+        {
+          "face": 8,
+          "vertices": [
+            0,
+            25,
+            24
+          ],
+          "owner": 1
+        },
+        {
+          "face": 8,
+          "vertices": [
+            25,
+            3,
+            24
+          ],
+          "owner": 4
+        },
+        {
+          "face": 9,
+          "vertices": [
+            28,
+            21,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 9,
+          "vertices": [
+            28,
+            26,
+            19
+          ],
+          "owner": 3
+        },
+        {
+          "face": 9,
+          "vertices": [
+            26,
+            28,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 9,
+          "vertices": [
+            26,
+            14,
+            19
+          ],
+          "owner": 3
+        },
+        {
+          "face": 10,
+          "vertices": [
+            21,
+            30,
+            13
+          ],
+          "owner": 1
+        },
+        {
+          "face": 10,
+          "vertices": [
+            4,
+            30,
+            20
+          ],
+          "owner": 2
+        },
+        {
+          "face": 10,
+          "vertices": [
+            31,
+            30,
+            4
+          ],
+          "owner": 2
+        },
+        {
+          "face": 10,
+          "vertices": [
+            30,
+            31,
+            13
+          ],
+          "owner": 1
+        },
+        {
+          "face": 10,
+          "vertices": [
+            31,
+            11,
+            13
+          ],
+          "owner": 1
+        },
+        {
+          "face": 11,
+          "vertices": [
+            21,
+            13,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 11,
+          "vertices": [
+            12,
+            0,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 11,
+          "vertices": [
+            13,
+            12,
+            1
+          ],
+          "owner": 1
+        },
+        {
+          "face": 12,
+          "vertices": [
+            39,
+            38,
+            6
+          ],
+          "owner": 4
+        },
+        {
+          "face": 12,
+          "vertices": [
+            8,
+            6,
+            9
+          ],
+          "owner": 4
+        },
+        {
+          "face": 12,
+          "vertices": [
+            8,
+            39,
+            6
+          ],
+          "owner": 4
+        },
+        {
+          "face": 12,
+          "vertices": [
+            16,
+            38,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 12,
+          "vertices": [
+            38,
+            5,
+            15
+          ],
+          "owner": 2
+        },
+        {
+          "face": 12,
+          "vertices": [
+            5,
+            38,
+            39
+          ],
+          "owner": 2
+        },
+        {
+          "face": 13,
+          "vertices": [
+            3,
+            7,
+            2
+          ],
+          "owner": 4
+        },
+        {
+          "face": 13,
+          "vertices": [
+            6,
+            10,
+            9
+          ],
+          "owner": 4
+        },
+        {
+          "face": 13,
+          "vertices": [
+            7,
+            10,
+            6
+          ],
+          "owner": 4
+        },
+        {
+          "face": 13,
+          "vertices": [
+            10,
+            7,
+            3
+          ],
+          "owner": 4
+        },
+        {
+          "face": 14,
+          "vertices": [
+            10,
+            8,
+            9
+          ],
+          "owner": 4
+        },
+        {
+          "face": 14,
+          "vertices": [
+            11,
+            12,
+            13
+          ],
+          "owner": 1
+        },
+        {
+          "face": 14,
+          "vertices": [
+            12,
+            11,
+            32
+          ],
+          "owner": 1
+        },
+        {
+          "face": 14,
+          "vertices": [
+            10,
+            23,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 14,
+          "vertices": [
+            23,
+            32,
+            8
+          ],
+          "owner": 4
+        },
+        {
+          "face": 14,
+          "vertices": [
+            23,
+            12,
+            32
+          ],
+          "owner": 1
+        }
+      ],
+      "faces": [
+        {
+          "face": 0,
+          "triangle_count": 4,
+          "area": 0.35355339059327373,
+          "missing_area": 6.938893903907228e-18,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 1,
+          "triangle_count": 3,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 2,
+          "triangle_count": 7,
+          "area": 0.35355339059327373,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 3,
+          "triangle_count": 7,
+          "area": 0.1715728752538098,
+          "missing_area": 5.74836792573273e-18,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 4,
+          "triangle_count": 4,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 5,
+          "triangle_count": 8,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 2.7546646990728675e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 6,
+          "triangle_count": 6,
+          "area": 0.1715728752538098,
+          "missing_area": 2.017772061771767e-18,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 7,
+          "triangle_count": 5,
+          "area": 0.2928932188134525,
+          "missing_area": 5.74836792573273e-18,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 8,
+          "triangle_count": 8,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 1.0408340855860843e-17,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 9,
+          "triangle_count": 4,
+          "area": 0.35355339059327373,
+          "missing_area": 1.0408340855860843e-17,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 10,
+          "triangle_count": 5,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 11,
+          "triangle_count": 3,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 12,
+          "triangle_count": 6,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 13,
+          "triangle_count": 4,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 14,
+          "triangle_count": 6,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        }
+      ],
+      "coverage_argument": "Face-preserving continuous maps of each target face are surjective; all mapped triangles belong to their owner hulls. The common point extends the boundary cover to the target interior. Folding is permitted."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "target_sha256": "caa2626273335fc562a4f05fa9f178616fbed01e93f2716ec11559cd91049d0b",
+  "parts": 4,
+  "seed": 23,
+  "next_start_id": 2000,
+  "completed_total": 2000,
+  "counts": {
+    "converged": 3,
+    "lower_bound_pruned": 5,
+    "fixed_pair_pruned": 860,
+    "cached_lower_bound": 1110,
+    "geometry_rejected": 22
+  },
+  "note": "Compact counters, not run logs. Interrupted in-flight IDs are skipped on resume."
+}

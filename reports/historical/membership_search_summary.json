@@ -1,0 +1,219 @@
+{
+  "deterministic": {
+    "status": "no_improvement_found",
+    "initial_diameter": 0.9697677618614492,
+    "baseline_diameter_after_polishing": 0.9697677618614492,
+    "optimized_max_diameter": 0.9697677618614492,
+    "membership_improvement": 0.0,
+    "membership_changed": false,
+    "changes": [],
+    "counts": {
+      "candidates": 2774,
+      "duplicates_or_incumbent": 622,
+      "certificate_rejected": 65,
+      "constraint_superset_pruned": 734,
+      "tangent_bound_pruned": 25,
+      "fixed_bound_pruned": 1949,
+      "no_improvement_bound": 1
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "input_diameter": 0.9697677618614492,
+        "best_diameter": 0.9697677618614492,
+        "completed": true,
+        "counts": {
+          "duplicates_or_incumbent": 622,
+          "candidates": 2774,
+          "certificate_rejected": 65,
+          "constraint_superset_pruned": 734,
+          "tangent_bound_pruned": 25,
+          "fixed_bound_pruned": 1949,
+          "no_improvement_bound": 1
+        }
+      }
+    ],
+    "options": {
+      "max_rounds": 1,
+      "max_patch_size": 4,
+      "split_star_limit": 4,
+      "random_trials": 0,
+      "random_moves": 3,
+      "seed": 0,
+      "max_candidates": 20000,
+      "time_limit": null,
+      "improvement_tol": 1e-08,
+      "maxiter": 1000,
+      "ftol": 1e-13,
+      "feasibility_tol": 1e-10,
+      "prune": true,
+      "polish_start": true
+    },
+    "elapsed_seconds": 3.3371221169999785,
+    "scope": "Local search on a retained reference boundary mesh; target vertices, common-point memberships, and original face/edge incidences are fixed. A negative search result does not exclude other memberships or triangulations.",
+    "arithmetic_note": "Coverage checks and lower-bound pruning use floating-point arithmetic, not interval/exact arithmetic. Current distances are never used to prune movable-point candidates.",
+    "coverage_check": {
+      "valid_numerically": true,
+      "max_affine_plane_residual": 1.1102230246251565e-16,
+      "max_missing_face_area": 1.734723475976807e-17,
+      "total_missing_face_area": 3.058324922987027e-17,
+      "max_normalized_outside_violation": 1.1102230246251565e-16
+    },
+    "nonlinear_solved_candidates": [
+      {
+        "status": "no_improvement_bound",
+        "move": {
+          "type": "patch",
+          "triangles": [
+            32,
+            37
+          ],
+          "from_hull": 4,
+          "to_hull": 3
+        },
+        "changes": [
+          {
+            "hull": 3,
+            "removed": [],
+            "added": [
+              37
+            ]
+          },
+          {
+            "hull": 4,
+            "removed": [
+              34,
+              42
+            ],
+            "added": []
+          }
+        ],
+        "diameter": 0.9776563472603288,
+        "improvement": -0.0078885853988796,
+        "solver": {
+          "method": "SLSQP",
+          "success": true,
+          "status": 0,
+          "message": "Optimization terminated successfully",
+          "iterations": 12,
+          "function_evaluations": 13,
+          "ftol": 1e-13,
+          "final_epigraph_squared_diameter": 0.9558119333384106,
+          "elapsed_seconds": 0.020578392999993866,
+          "incumbent_squared_diameter": 0.9558119333384085
+        }
+      }
+    ]
+  },
+  "randomized": {
+    "status": "no_improvement_found",
+    "initial_diameter": 0.9697677618614492,
+    "baseline_diameter_after_polishing": 0.9697677618614492,
+    "optimized_max_diameter": 0.9697677618614492,
+    "membership_improvement": 0.0,
+    "membership_changed": false,
+    "changes": [],
+    "counts": {
+      "candidates": 6597,
+      "duplicates_or_incumbent": 1799,
+      "certificate_rejected": 65,
+      "constraint_superset_pruned": 2133,
+      "tangent_bound_pruned": 25,
+      "fixed_bound_pruned": 4373,
+      "no_improvement_bound": 1
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "input_diameter": 0.9697677618614492,
+        "best_diameter": 0.9697677618614492,
+        "completed": true,
+        "counts": {
+          "duplicates_or_incumbent": 1799,
+          "candidates": 6597,
+          "certificate_rejected": 65,
+          "constraint_superset_pruned": 2133,
+          "tangent_bound_pruned": 25,
+          "fixed_bound_pruned": 4373,
+          "no_improvement_bound": 1
+        }
+      }
+    ],
+    "options": {
+      "max_rounds": 3,
+      "max_patch_size": 4,
+      "split_star_limit": 4,
+      "random_trials": 5000,
+      "random_moves": 4,
+      "seed": 7,
+      "max_candidates": 30000,
+      "time_limit": null,
+      "improvement_tol": 1e-08,
+      "maxiter": 1000,
+      "ftol": 1e-13,
+      "feasibility_tol": 1e-10,
+      "prune": true,
+      "polish_start": true
+    },
+    "elapsed_seconds": 7.43118515499998,
+    "scope": "Local search on a retained reference boundary mesh; target vertices, common-point memberships, and original face/edge incidences are fixed. A negative search result does not exclude other memberships or triangulations.",
+    "arithmetic_note": "Coverage checks and lower-bound pruning use floating-point arithmetic, not interval/exact arithmetic. Current distances are never used to prune movable-point candidates.",
+    "coverage_check": {
+      "valid_numerically": true,
+      "max_affine_plane_residual": 1.1102230246251565e-16,
+      "max_missing_face_area": 1.734723475976807e-17,
+      "total_missing_face_area": 3.058324922987027e-17,
+      "max_normalized_outside_violation": 1.1102230246251565e-16
+    },
+    "nonlinear_solved_candidates": [
+      {
+        "status": "no_improvement_bound",
+        "move": {
+          "type": "patch",
+          "triangles": [
+            32,
+            37
+          ],
+          "from_hull": 4,
+          "to_hull": 3
+        },
+        "changes": [
+          {
+            "hull": 3,
+            "removed": [],
+            "added": [
+              37
+            ]
+          },
+          {
+            "hull": 4,
+            "removed": [
+              34,
+              42
+            ],
+            "added": []
+          }
+        ],
+        "diameter": 0.9776563472603288,
+        "improvement": -0.0078885853988796,
+        "solver": {
+          "method": "SLSQP",
+          "success": true,
+          "status": 0,
+          "message": "Optimization terminated successfully",
+          "iterations": 12,
+          "function_evaluations": 13,
+          "ftol": 1e-13,
+          "final_epigraph_squared_diameter": 0.9558119333384106,
+          "elapsed_seconds": 0.018107575999977144,
+          "incumbent_squared_diameter": 0.9558119333384085
+        }
+      }
+    ]
+  },
+  "tests": {
+    "passed": 11,
+    "failed": 0,
+    "test_program": "test_search_memberships.py"
+  }
+}

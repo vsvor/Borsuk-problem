@@ -1,0 +1,536 @@
+{
+  "five_best.txt": {
+    "check": {
+      "valid_numerically": true,
+      "tolerance": 1e-09,
+      "max_affine_plane_residual": 5.551115123125783e-17,
+      "max_normalized_outside_violation": 5.551115123125783e-17,
+      "max_fixed_vertex_displacement": 0.0,
+      "max_missing_face_area": 1.724510377719819e-17,
+      "total_missing_face_area": 4.5765910148245625e-17,
+      "common_point": 30,
+      "faces": [
+        {
+          "face": 0,
+          "area": 0.2928932188134525,
+          "missing_area": 6.938893903907228e-18,
+          "outside_area": 2.42861286636753e-17,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 1,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 2,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 3,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 4,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 1.8001948886378486e-17,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 5,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 6,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 7,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 8,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 9,
+          "area": 0.1715728752538098,
+          "missing_area": 1.724510377719819e-17,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 10,
+          "area": 0.1715728752538098,
+          "missing_area": 1.724510377719819e-17,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 11,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 12,
+          "area": 0.23223304703363123,
+          "missing_area": 4.336808689942018e-18,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 13,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 14,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 15,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 16,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        }
+      ],
+      "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+    },
+    "affine_degrees_of_freedom": 27,
+    "triangles": 94,
+    "common": 30
+  },
+  "four_adjacent_best.txt": {
+    "check": {
+      "valid_numerically": true,
+      "tolerance": 1e-09,
+      "max_affine_plane_residual": 5.551115123125783e-17,
+      "max_normalized_outside_violation": 5.551115123125783e-17,
+      "max_fixed_vertex_displacement": 0.0,
+      "max_missing_face_area": 2.7755575615628914e-17,
+      "total_missing_face_area": 5.768794122246706e-17,
+      "common_point": 26,
+      "faces": [
+        {
+          "face": 0,
+          "area": 0.35355339059327373,
+          "missing_area": 2.7755575615628914e-17,
+          "outside_area": 1.734723475976807e-17,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 1,
+          "area": 0.1715728752538098,
+          "missing_area": 5.74836792573273e-18,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 2,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 3,
+          "area": 0.1715728752538098,
+          "missing_area": 5.74836792573273e-18,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 4,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 5,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 1.6156708781593572e-17,
+          "overlap_area": 5.551115123125783e-17
+        },
+        {
+          "face": 6,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 5.551115123125783e-17
+        },
+        {
+          "face": 7,
+          "area": 0.2928932188134525,
+          "missing_area": 6.938893903907228e-18,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 8,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 3.469446951953614e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 9,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 10,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 11,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 12,
+          "area": 0.1715728752538098,
+          "missing_area": 5.74836792573273e-18,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 13,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 14,
+          "area": 0.23223304703363123,
+          "missing_area": 5.74836792573273e-18,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 15,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        }
+      ],
+      "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+    },
+    "affine_degrees_of_freedom": 27,
+    "triangles": 88,
+    "common": 26
+  },
+  "four_adjacent_extended_from_five.txt": {
+    "check": {
+      "valid_numerically": true,
+      "tolerance": 1e-09,
+      "max_affine_plane_residual": 5.551115123125783e-17,
+      "max_normalized_outside_violation": 5.551115123125783e-17,
+      "max_fixed_vertex_displacement": 0.0,
+      "max_missing_face_area": 2.299347170293092e-17,
+      "total_missing_face_area": 3.449020755439638e-17,
+      "common_point": 31,
+      "faces": [
+        {
+          "face": 0,
+          "area": 0.35355339059327373,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 1,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 2,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 3,
+          "area": 0.1715728752538098,
+          "missing_area": 2.299347170293092e-17,
+          "outside_area": 8.393956138197843e-18,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 4,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 5,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 3.925231146709437e-17,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 6,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 7,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 1.8435629755372688e-17,
+          "overlap_area": 5.551115123125783e-17
+        },
+        {
+          "face": 8,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 9,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 10,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 11,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 12,
+          "area": 0.1715728752538098,
+          "missing_area": 1.149673585146546e-17,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 13,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 14,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 15,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        }
+      ],
+      "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+    },
+    "affine_degrees_of_freedom": 31,
+    "triangles": 96,
+    "common": 31
+  },
+  "five_clipped_from_four_adjacent.txt": {
+    "check": {
+      "valid_numerically": true,
+      "tolerance": 1e-09,
+      "max_affine_plane_residual": 5.551115123125783e-17,
+      "max_normalized_outside_violation": 5.551115123125783e-17,
+      "max_fixed_vertex_displacement": 0.0,
+      "max_missing_face_area": 6.938893903907228e-18,
+      "total_missing_face_area": 1.556144080316616e-17,
+      "common_point": 29,
+      "faces": [
+        {
+          "face": 0,
+          "area": 0.2928932188134525,
+          "missing_area": 6.938893903907228e-18,
+          "outside_area": 0.0,
+          "overlap_area": -5.551115123125783e-17
+        },
+        {
+          "face": 1,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 2,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 5.74836792573273e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 3,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 5.551115123125783e-17
+        },
+        {
+          "face": 4,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 1.2797778458448065e-17,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 5,
+          "area": 0.1715728752538098,
+          "missing_area": 2.874178973526204e-18,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 6,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 7,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 8,
+          "area": 0.2928932188134525,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 9,
+          "area": 0.1715728752538098,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 10,
+          "area": 0.1715728752538098,
+          "missing_area": 5.74836792573273e-18,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 11,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 12,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": -2.7755575615628914e-17
+        },
+        {
+          "face": 13,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 4.196973202629711e-18,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 14,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        },
+        {
+          "face": 15,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 2.7755575615628914e-17
+        },
+        {
+          "face": 16,
+          "area": 0.23223304703363123,
+          "missing_area": 0.0,
+          "outside_area": 0.0,
+          "overlap_area": 0.0
+        }
+      ],
+      "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+    },
+    "affine_degrees_of_freedom": 27,
+    "triangles": 94,
+    "common": 29
+  }
+}

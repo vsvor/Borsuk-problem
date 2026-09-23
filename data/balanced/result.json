@@ -1,0 +1,89 @@
+{
+  "status": "converged",
+  "delta_bracket": [
+    0.008811423364095392,
+    0.008811423373408615
+  ],
+  "bracket_width": 9.313223803264492e-12,
+  "left": {
+    "delta": 0.008811423364095392,
+    "f_interval": [
+      1.2472245458639009e-12,
+      3.283595617631363e-12
+    ],
+    "dummy_interval": [
+      0.9653991786510919,
+      0.9653991786521101
+    ],
+    "upper_interval": [
+      0.9653991786488265,
+      0.9653991786498447
+    ],
+    "selected_dummy": 0,
+    "selected_upper": 0
+  },
+  "right": {
+    "delta": 0.008811423373408615,
+    "f_interval": [
+      -4.312772361458883e-12,
+      -2.2762902673889585e-12
+    ],
+    "dummy_interval": [
+      0.9653991786475454,
+      0.9653991786485637
+    ],
+    "upper_interval": [
+      0.96539917865084,
+      0.9653991786518582
+    ],
+    "selected_dummy": 0,
+    "selected_upper": 0
+  },
+  "evaluations": 37,
+  "elapsed_seconds": 4.294475587999955,
+  "case": "adjacent",
+  "dummy_a": 0.5,
+  "options": {
+    "maxiter": 1200,
+    "ftol": 1e-13,
+    "diameter_tol": 3e-12,
+    "bound_guard": 1e-12,
+    "upper_guard": 5e-13,
+    "polish_attempts": 3
+  },
+  "source_paths": {
+    "dummy": [
+      "/mnt/data/delta_balance_package/examples/dummy_seed/best.json"
+    ],
+    "upper": [
+      "/mnt/data/delta_balance_package/examples/upper_seed/best.json"
+    ]
+  },
+  "scope": "Root of the two lower envelopes over the supplied membership/incidence models. Not globally optimal over all partitions.",
+  "arithmetic": "Floating-point primal/dual bounds with explicit guards; not exact or outward-rounded interval arithmetic.",
+  "message": "Bracket is for the supplied model pool and uses floating-point primal/dual bounds.",
+  "delta": 0.008811423368752003,
+  "delta_max_bracket_error": 4.656611901632246e-12,
+  "dummy_diameter": 0.9653991786498369,
+  "upper_diameter": 0.9653991786503513,
+  "max_diameter_upper": 0.9653991786508513,
+  "middle": {
+    "delta": 0.008811423368752003,
+    "f_interval": [
+      -1.5326628854950286e-12,
+      5.037081862724335e-13
+    ],
+    "dummy_interval": [
+      0.9653991786493187,
+      0.965399178650337
+    ],
+    "upper_interval": [
+      0.9653991786498333,
+      0.9653991786508513
+    ],
+    "selected_dummy": 0,
+    "selected_upper": 0
+  },
+  "same_rounding_8_decimal_places": true,
+  "same_rounding_8_significant_digits": true
+}

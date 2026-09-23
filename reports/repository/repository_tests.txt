@@ -1,0 +1,10 @@
+test_continuation_coordinates_and_memberships (test_repository.RepositoryTests.test_continuation_coordinates_and_memberships) ... ok
+test_copied_source_files_unchanged (test_repository.RepositoryTests.test_copied_source_files_unchanged) ... ok
+test_five_primary_results_and_certificate_hashes (test_repository.RepositoryTests.test_five_primary_results_and_certificate_hashes) ... ok
+test_primary_raw_gaps_and_padded_exact_covers (test_repository.RepositoryTests.test_primary_raw_gaps_and_padded_exact_covers) ... ok
+test_symbolic_formula_with_independent_sympy (test_repository.RepositoryTests.test_symbolic_formula_with_independent_sympy) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.279s
+
+OK

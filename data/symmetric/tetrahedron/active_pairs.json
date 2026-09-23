@@ -1,0 +1,46 @@
+{
+  "tolerance": 1e-08,
+  "indexing": "zero-based points; one-based cells",
+  "pairs": [
+    {
+      "pair": [
+        0,
+        6
+      ],
+      "length": 1.4999999999999998,
+      "cells": [
+        1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        6
+      ],
+      "length": 1.4999999999999998,
+      "cells": [
+        2
+      ]
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "length": 1.4999999999999998,
+      "cells": [
+        3
+      ]
+    },
+    {
+      "pair": [
+        3,
+        6
+      ],
+      "length": 1.4999999999999998,
+      "cells": [
+        4
+      ]
+    }
+  ]
+}

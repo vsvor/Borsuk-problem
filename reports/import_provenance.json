@@ -1,0 +1,507 @@
+[
+  {
+    "path": "scripts/optimize_partition.py",
+    "source": "optimize_partition.py",
+    "sha256": "8605b446606e8b0456bc3a381f50aaabf1ac34916a1cf8bbd4fa0ab14a2c13f4",
+    "modified": false
+  },
+  {
+    "path": "scripts/search_memberships.py",
+    "source": "search_memberships.py",
+    "sha256": "bc5f8bd07c8a8a20642013a257f85280ebba1e4ced96e3bb9b5cc8c0795e000a",
+    "modified": false
+  },
+  {
+    "path": "scripts/partitions_slsqp.py",
+    "source": "partitions_slsqp.py",
+    "sha256": "03a5b87b5a042c1d2c29a804b79c6e8720fb053e4c358df1ebb4ba83abee35bd",
+    "modified": false
+  },
+  {
+    "path": "scripts/six_plane_search.py",
+    "source": "six_plane_search.py",
+    "sha256": "f48a1a7fa141764fa594ec4d9302efde1a4fb6c09ef6c509a2773147dad95de3",
+    "modified": false
+  },
+  {
+    "path": "scripts/intermediate_truncation_search.py",
+    "source": "intermediate_truncation_search.py",
+    "sha256": "72a1e26e3f8594bc8edc87ebc3bc37f58bb710021bbee94205793b18c69004bf",
+    "modified": false
+  },
+  {
+    "path": "scripts/parametric_truncation_search.py",
+    "source": "parametric_truncation_search.py",
+    "sha256": "51f0dd7eabe3115649ff1bd92764614657b284c1cbf1e744c150f6dc5b6f949d",
+    "modified": false
+  },
+  {
+    "path": "scripts/balance_truncations.py",
+    "source": "balance_truncations.py",
+    "sha256": "3a3efbdae7f488917056ceaeca16ad629d450bc74c5283e50fdcdda115da74af",
+    "modified": false
+  },
+  {
+    "path": "scripts/exact_cover_check.py",
+    "source": "exact_cover_check.py",
+    "sha256": "1930bc6c364abfd48f7525761535dafdee1972b225b8b139c396655bc715900a",
+    "modified": false
+  },
+  {
+    "path": "scripts/verify_trd_cover.py",
+    "source": "verify_trd_cover.py",
+    "sha256": "0fadb0cab976692e6a1f4693ba17512afbeb994f43e5f342b900b57404356c45",
+    "modified": false
+  },
+  {
+    "path": "scripts/verify_rd_cover.py",
+    "source": "verify_rd_cover.py",
+    "sha256": "e1eacaccc274a40a32fb68a37efc4dc275a61f0b9365841e5375e4c1e9d2a807",
+    "modified": false
+  },
+  {
+    "path": "scripts/show_hull_diameters.py",
+    "source": "show_hull_diameters.py",
+    "sha256": "9423a3530196bae50a3839943c54a9f5bada15a285eda4dcf6608a25955f7581",
+    "modified": false
+  },
+  {
+    "path": "docs/guides/README_balance_truncations.md",
+    "source": "README_balance_truncations.md",
+    "sha256": "6c89c0f164d6f1c0ea0eccf47c6fa9333a8e1999185f33d86edb744f370513f5",
+    "modified": false
+  },
+  {
+    "path": "docs/guides/README_exact_cover_check.md",
+    "source": "README_exact_cover_check.md",
+    "sha256": "d60a0bd09a3159a533a913f3926014cdbacfc83d97b981062e545f1b15a72016",
+    "modified": false
+  },
+  {
+    "path": "docs/guides/README_membership_search.md",
+    "source": "README_membership_search.md",
+    "sha256": "02676c12d69659a098a5993861e99baaac3d7f817c9206ff942c1efcb0d56b72",
+    "modified": false
+  },
+  {
+    "path": "docs/guides/README_parametric_truncation.md",
+    "source": "README_parametric_truncation.md",
+    "sha256": "d4e720c789fb3221a8c777ccc7a94ca52848eab43cd427bbebbecda3e7c9ac7c",
+    "modified": false
+  },
+  {
+    "path": "docs/guides/README_partitions_slsqp.md",
+    "source": "README_partitions_slsqp.md",
+    "sha256": "d649f28b6daa1869c6cc2f0bb0dd370f8fda916e8e09d0cdd12ee7c17132e163",
+    "modified": false
+  },
+  {
+    "path": "docs/guides/README_six_plane_search.md",
+    "source": "README_six_plane_search.md",
+    "sha256": "ed5fe7875c90a9aa8efae797dc6d83d83154edeac066d9e1b34caa2561328fd0",
+    "modified": false
+  },
+  {
+    "path": "docs/guides/optimize_partition_README.md",
+    "source": "optimize_partition_README.md",
+    "sha256": "de77cbca500639e44a4fe24c351f08cd64e2e34457100bd24797635cb8d4b36e",
+    "modified": false
+  },
+  {
+    "path": "data/original/partitions3d.py",
+    "source": "partitions3d.py",
+    "sha256": "2975e192e4730a0985abc0107dbee5a4f7a58fca3bc6f9acfaf337cc7901d070",
+    "modified": false
+  },
+  {
+    "path": "data/original/r_dod_4_0966.txt",
+    "source": "r_dod_4_0966.txt",
+    "sha256": "ed6237d973c39680406fa2e24d6bd3b52df2fc1c26a7eed767181f4a346f36d8",
+    "modified": false
+  },
+  {
+    "path": "data/original/rd2_0957.txt",
+    "source": "rd2_0957.txt",
+    "sha256": "87ed352404ff37ef7132d7166aee29f67a49ebe5fc64a854cc424e956a49218c",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/six_planes/partition.txt",
+    "source": "six_plane_best.txt",
+    "sha256": "3c4c12829d621782bb633c58687ad64091451a2172e67a1e56290cce1661334c",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/six_planes/model.json",
+    "source": "six_plane_best.json",
+    "sha256": "a7881484a96bfc3bd6765a86fa696caca82acbcce41246ce970c875f5872a1a4",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/six_planes_relaxed/partition.txt",
+    "source": "six_plane_relaxed.txt",
+    "sha256": "49d56856a0c38e88a1b919ee183da87641f121ce1bba4690ffd0399557151cce",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/six_planes_relaxed/model.json",
+    "source": "six_plane_relaxed.json",
+    "sha256": "51a3470d4c0ee7adc7b1e4b9ebbb09fbcc0f6ea99bca027ce454ba4180f1f1a9",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/best_cover/partition.txt",
+    "source": "r_dod_4_optimized.txt",
+    "sha256": "0dc7efd15617c82c4a737ee85b00b88cb3805ba812b16e8f12d28dcf91e2d623",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/best_cover/model.json",
+    "source": "r_dod_4_optimized.json",
+    "sha256": "bf0bf7ec357205ab58a6e5f6a50f91674aaf92e83825f5f7ed7247de57ea951a",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/best_cover/global_engine.txt",
+    "source": "r_dod_4_slsqp_best.txt",
+    "sha256": "9eddf78370e9ef4cf688f38d3b37d6a1f1a2822a16ef310d7209233fded67b52",
+    "modified": false
+  },
+  {
+    "path": "data/three_truncations/best_cover/global_engine.json",
+    "source": "r_dod_4_slsqp_best.json",
+    "sha256": "5be3c7e6e9eca8e45273f5d1b7956af60cdebc04e11965343ebcb35ca3b84bb3",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/six_plane_validation.json",
+    "source": "six_plane_validation.json",
+    "sha256": "5b80f42472b2cb3da7ed0c64ba014acfa211501081c2118f93538a3795ba3cdf",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/six_plane_relaxation_summary.json",
+    "source": "six_plane_relaxation_summary.json",
+    "sha256": "c70c0a128af5486dc8b1974781e718c2f298d243f91db5c75ba5146449d12a8a",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/r_dod_4_optimized_coverage.json",
+    "source": "r_dod_4_optimized_coverage.json",
+    "sha256": "9e24a169d6a68b8451fac8cd7a1996bfd8b3b47e1e2a19a9407ee1ea8c958aeb",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/membership_search_summary.json",
+    "source": "membership_search_summary.json",
+    "sha256": "21b202174e554870deebe782cf59470f48922873a8775a5b1283cd11a6622342",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/partitions_slsqp_validation.json",
+    "source": "partitions_slsqp_validation.json",
+    "sha256": "0278565505173067669c1a3da2e7168dafb32fdde7478de0a4974cf81dc8ce67",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/parametric_truncation_validation.json",
+    "source": "parametric_truncation_validation.json",
+    "sha256": "fdf1ca1245e4ecc7ec66fe380c38fbd580a3a0b84f4cb09a1576f91c86763d33",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/delta_star_validation.json",
+    "source": "delta_star_validation.json",
+    "sha256": "91887a95497107d660601d9d0d408d83203a71f0ddfe6ea3b6b40fe687f75f9b",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/verification_summary.json",
+    "source": "verification_summary.json",
+    "sha256": "1f0390bc848df1e755e7bf3b499a774a37d58d99e56077b1fd39b1b45036adc8",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/intermediate_truncation_summary.json",
+    "source": "intermediate_truncation_summary.json",
+    "sha256": "460a26aba5c7ad7627a09bf7ea512fd80bf9aa10d34f4de58f05ccb6c2880612",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/dummy/partition.txt",
+    "source": "delta_star_dummy.txt",
+    "sha256": "9627f47fe9c862481cf728d47ecaa89bc89243c63189dbc233e8c436a37a8347",
+    "modified": false
+  },
+  {
+    "path": "certificates/balanced/dummy_padded_historical.json",
+    "source": "dummy_padded_check.json",
+    "sha256": "6b6aa1f39167c544bb64bec27c9b4925994f08863073d5b26d1e114941883131",
+    "modified": false
+  },
+  {
+    "path": "certificates/balanced/dummy_raw_historical.json",
+    "source": "_repository_sources/exact_cover_verification_package/dummy_analytic_raw_check.json",
+    "sha256": "1d86c4d575b68fa5fbeaead8e9728652a6888d251b97bc602e3d3c3e86ae8317",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/dummy/continuation.json",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/balanced/dummy.json",
+    "sha256": "a20536dbe00e2aa1e37af33a93c7db8c6f8b01b4e26fbae42dc913965765a663",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/seeds/dummy_seed/best.json",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/dummy_seed/best.json",
+    "sha256": "8935553ba03bc082c363fd24a78496893b94a00ae16bff82eb0877dc138c332c",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/seeds/dummy_seed/best.txt",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/dummy_seed/best.txt",
+    "sha256": "cac05d00ebe1e0c5cefe6e3c88d6ec2fa5c030545720f560eb330614f08c829b",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/upper/partition.txt",
+    "source": "delta_star_upper.txt",
+    "sha256": "60d07cfc74fd898ec3faf13c2d5d3acb0e4421aebafd91ddcd79c09838cd3cc5",
+    "modified": false
+  },
+  {
+    "path": "certificates/balanced/upper_padded_historical.json",
+    "source": "upper_padded_check.json",
+    "sha256": "1f4ec3bdf26b868d085e1cacfdb24e999056178b57b20ba8e1dfc76d463e1470",
+    "modified": false
+  },
+  {
+    "path": "certificates/balanced/upper_raw_historical.json",
+    "source": "_repository_sources/exact_cover_verification_package/upper_analytic_raw_check.json",
+    "sha256": "f4d916bf68aba02a4b614ed233c114304da334dab3176d7215bbb5db934979fb",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/upper/continuation.json",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/balanced/upper.json",
+    "sha256": "6355ded6875c785489b0d51dd8de9f2e82af00ea0dc21204412a17e7e0dadf39",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/seeds/upper_seed/best.json",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/upper_seed/best.json",
+    "sha256": "cba0a337b5444c54dfa46b101ac4db5b420c6f665a740821913ea04f0b69c72e",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/seeds/upper_seed/best.txt",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/upper_seed/best.txt",
+    "sha256": "326983be7e80c7c579f41a0a91c25ea2bf287c65c93cb770891ab59608078011",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/result.json",
+    "source": "delta_star_result.json",
+    "sha256": "d947e08067e08a44a3ec385e3dbc45b1192acba583be2a0ef130abb7854e31fd",
+    "modified": false
+  },
+  {
+    "path": "data/balanced/bracket.json",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/balanced/bracket.json",
+    "sha256": "d947e08067e08a44a3ec385e3dbc45b1192acba583be2a0ef130abb7854e31fd",
+    "modified": false
+  },
+  {
+    "path": "reports/historical/balanced_volume_check.json",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/examples/balanced/independent_volume_check.json",
+    "sha256": "1a59042dc87f4d9fbbdf8d6db58aaa4b67a1ceb3fc1994dc85e1fc269ac6ca9e",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/five/target.json",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/target_five.json",
+    "sha256": "dabc2a5394b53da5e0eb7254ec1f9c948b814da2bbf48078bb79dcae1bf8ccc5",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/five/model.json",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/search_five/best.json",
+    "sha256": "67a57151cdc6ff0e075663920405d341d571b95ea7ed5f191fa9f8fa73542394",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/five/partition.txt",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/search_five/best.txt",
+    "sha256": "6980f5e6f58b766885e74af01c417e3ee8f66586280039ecdf73485cff201b1d",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/four_adjacent/target.json",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/target_four_adjacent.json",
+    "sha256": "eb98e50f640280f8e1af68237f317fe1d9f51c3badbe979bc5c67c0b9c0d1f02",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/four_adjacent/model.json",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/search_four_adjacent/best.json",
+    "sha256": "83c7b427ae9039400dd92a6411bf08b933238e7849d63c938818d7579158c809",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/four_adjacent/partition.txt",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/search_four_adjacent/best.txt",
+    "sha256": "7cbc920dee37c7a5aaeefc61651789cc4eb422126cc396403a09abc0bd7dda30",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/four_opposite/target.json",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/target_four_opposite.json",
+    "sha256": "74852b88c2374ac3be6aea0cd567b90766718ef34278e9a3dd4dc146c926241f",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/four_opposite/model.json",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/search_four_opposite/best.json",
+    "sha256": "c177d6d6d437cd35be4e19e43f0347b766642860d7d32aa4deb789766b28b036",
+    "modified": false
+  },
+  {
+    "path": "data/intermediate/four_opposite/partition.txt",
+    "source": "_repository_sources/intermediate_truncation_package/intermediate_truncation_package/search_four_opposite/best.txt",
+    "sha256": "6cdb457274d481e7012b21d3f9cfa4b6fcc1fabbac5a975185a84ae0f1bc81ea",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/five_clipped_from_four_adjacent.txt",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/five_clipped_from_four_adjacent.txt",
+    "sha256": "c077994955f8df2d54e23129bbc10f95cbda318ed6ace01fc2c5504a42e20a4e",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/four_adjacent_best.txt",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/four_adjacent_best.txt",
+    "sha256": "7cbc920dee37c7a5aaeefc61651789cc4eb422126cc396403a09abc0bd7dda30",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/README.md",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/README.md",
+    "sha256": "c4815207c5830413a627fb466de1908c7aecda394da583b1a56702b4b78dc23e",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/four_adjacent_best.json",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/four_adjacent_best.json",
+    "sha256": "83c7b427ae9039400dd92a6411bf08b933238e7849d63c938818d7579158c809",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/five_best.json",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/five_best.json",
+    "sha256": "67a57151cdc6ff0e075663920405d341d571b95ea7ed5f191fa9f8fa73542394",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/five_best.txt",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/five_best.txt",
+    "sha256": "6980f5e6f58b766885e74af01c417e3ee8f66586280039ecdf73485cff201b1d",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/bottleneck_high_precision.json",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/bottleneck_high_precision.json",
+    "sha256": "70d231144f03702ea8c93fcb2598e67375961148f1fe8d6f2713af8f87a429e0",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/comparison_report.json",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/comparison_report.json",
+    "sha256": "39a199eaba5e72e07850fecac3fbf7c9921998a322842758f377750fbc2a8ea1",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/triangle_certificate.py",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/triangle_certificate.py",
+    "sha256": "63aaf2cc030856efbd4bdf3ba79ed50e3fed25e111a05de8d94ce74d7afdf9cb",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/independent_boundary_checks.json",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/independent_boundary_checks.json",
+    "sha256": "ed3c7510df66ed330243047867e77664e2a4dc05b981aed556ecad6f23c621fe",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/compare_records.py",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/compare_records.py",
+    "sha256": "9561d44154e2b40f617b0d1fbe796bdf24a26a3b43e11a90118e31e0cacb381f",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/triangle_certificate.json",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/triangle_certificate.json",
+    "sha256": "476d95bfff8ca4c934460eae3f06568ac9d169fdc76327e6c2ded76a157cb6b4",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/membership_and_active_pair_tables.md",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/membership_and_active_pair_tables.md",
+    "sha256": "07d7aaedb4cf4ae6b2c72672bed11cd90df1437c520b91005cb7fa1939c9aee4",
+    "modified": false
+  },
+  {
+    "path": "supplementary/truncation_comparison/four_adjacent_extended_from_five.txt",
+    "source": "_repository_sources/truncation_partition_comparison/truncation_comparison/four_adjacent_extended_from_five.txt",
+    "sha256": "7dc01dd541554d03c5b14ea4406bf2dc2d6c0ddbeb945b82ab4f7ecfc0291300",
+    "modified": false
+  },
+  {
+    "path": "tests/test_parametric_truncation.py",
+    "source": "_repository_sources/parametric_truncation_search_package/test_parametric_truncation.py",
+    "source_sha256": "9b8b8bc6966dc189372bf70148345ef05319943af42ddaaf9537619c819d22fa",
+    "modified": true,
+    "changes": "Repository-relative script and fixture paths only."
+  },
+  {
+    "path": "tests/test_partitions_slsqp.py",
+    "source": "_repository_sources/partitions_slsqp_package/test_partitions_slsqp.py",
+    "source_sha256": "a806764afb7aeb27189b9a91e2701f34d71a6b832965731d607e0d0cad0fbfca",
+    "modified": true,
+    "changes": "Repository-relative script and fixture paths only."
+  },
+  {
+    "path": "tests/test_search_memberships.py",
+    "source": "_repository_sources/membership_search_package/test_search_memberships.py",
+    "source_sha256": "ca65d29ec7ae22820a40a29330bcc539f28ed0ba7aa0e58a56f11fba2ebc18f6",
+    "modified": true,
+    "changes": "Repository-relative script and fixture paths only."
+  },
+  {
+    "path": "tests/test_six_plane_search.py",
+    "source": "_repository_sources/six_plane_search_package/test_six_plane_search.py",
+    "source_sha256": "30ee6e2f459d7e158898252f1a8dcfc1320a4250157447cc18a19ea4145071c7",
+    "modified": true,
+    "changes": "Repository-relative script and fixture paths only."
+  },
+  {
+    "path": "tests/test_exact_cover_check.py",
+    "source": "_repository_sources/exact_cover_verification_package/test_exact_cover_check.py",
+    "source_sha256": "178daa3ecdb8f31ddae813cb8495afe5e1717f41caf0ad4007d21996e69fd0d4",
+    "modified": true,
+    "changes": "Repository-relative script and fixture paths only."
+  },
+  {
+    "path": "tests/test_balance_truncations.py",
+    "source": "_repository_sources/delta_balance_package/delta_balance_package/test_balance_truncations.py",
+    "source_sha256": "a4fae8ffb6fcfee37e29f806766af09760292fdd0e5375679983170bc4e90750",
+    "modified": true,
+    "changes": "Repository-relative script and fixture paths only."
+  },
+  {
+    "path": "tests/test_optimize_partition.py",
+    "source": "_repository_sources/partition_optimizer/partition_optimizer/test_optimize_partition.py",
+    "source_sha256": "8608d3250a908c65143ad5bd0d80a145ad2c93b9b58263e62640fb908442dba3",
+    "modified": true,
+    "changes": "Repository-relative script and fixture paths only."
+  }
+]

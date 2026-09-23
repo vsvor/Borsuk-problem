@@ -1,0 +1,47 @@
+[
+  {
+    "id": "three_six_planes",
+    "coverage_ideal": false,
+    "diameter_upper": "0.972881319605217",
+    "bound_proved": true,
+    "padding": "0",
+    "full_inclusion_exclusion": false,
+    "report": "three_six_planes_raw.json"
+  },
+  {
+    "id": "three_relaxed",
+    "coverage_ideal": false,
+    "diameter_upper": "0.969995198424018",
+    "bound_proved": true,
+    "padding": "0",
+    "full_inclusion_exclusion": false,
+    "report": "three_relaxed_raw.json"
+  },
+  {
+    "id": "three_best",
+    "coverage_ideal": false,
+    "diameter_upper": "0.969767761861450",
+    "bound_proved": true,
+    "padding": "0",
+    "full_inclusion_exclusion": false,
+    "report": "three_best_raw.json"
+  },
+  {
+    "id": "balanced_dummy",
+    "coverage_ideal": false,
+    "diameter_upper": "0.965399178649837",
+    "bound_proved": true,
+    "padding": "0",
+    "full_inclusion_exclusion": false,
+    "report": "balanced_dummy_raw.json"
+  },
+  {
+    "id": "balanced_upper",
+    "coverage_ideal": false,
+    "diameter_upper": "0.965399178650352",
+    "bound_proved": true,
+    "padding": "0",
+    "full_inclusion_exclusion": false,
+    "report": "balanced_upper_raw.json"
+  }
+]

@@ -1,0 +1,13 @@
+test_arithmetic (test_six_plane_symbolic.QuadraticTests.test_arithmetic) ... ok
+test_coarse_fine_are_different (test_six_plane_symbolic.QuadraticTests.test_coarse_fine_are_different) ... ok
+test_exact_target (test_six_plane_symbolic.QuadraticTests.test_exact_target) ... ok
+test_polynomial_identity (test_six_plane_symbolic.QuadraticTests.test_polynomial_identity) ... ok
+test_rational_scores_certificate (test_six_plane_symbolic.QuadraticTests.test_rational_scores_certificate) ... ok
+test_sign_random_decimal_crosscheck (test_six_plane_symbolic.QuadraticTests.test_sign_random_decimal_crosscheck) ... ok
+test_sign_tiny_nonzero (test_six_plane_symbolic.QuadraticTests.test_sign_tiny_nonzero) ... ok
+test_sqrt_bounds (test_six_plane_symbolic.QuadraticTests.test_sqrt_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.283s
+
+OK

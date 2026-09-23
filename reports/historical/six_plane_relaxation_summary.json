@@ -1,0 +1,167 @@
+{
+  "input": "six_plane_best.txt",
+  "input_diameter": 0.9728813196052167,
+  "after_coordinate_relaxation": 0.9699951984240177,
+  "fixed_vertices_unchanged": true,
+  "groups_unchanged_in_coordinate_solve": true,
+  "common_points_after_relaxation": {
+    "33": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "coverage_check": {
+    "valid_numerically": true,
+    "tolerance": 5e-10,
+    "max_affine_plane_residual": 1.1102230246251565e-16,
+    "max_normalized_outside_violation": 1.1102230246251565e-16,
+    "max_fixed_vertex_displacement": 0.0,
+    "max_missing_face_area": 6.245004513516506e-17,
+    "total_missing_face_area": 1.3282524818727209e-16,
+    "common_point": 33,
+    "faces": [
+      {
+        "face": 0,
+        "area": 0.35355339059327384,
+        "missing_area": 6.938893903907228e-18,
+        "outside_area": 4.163336342344337e-17,
+        "overlap_area": 5.551115123125783e-17
+      },
+      {
+        "face": 1,
+        "area": 0.35355339059327384,
+        "missing_area": 6.938893903907228e-18,
+        "outside_area": 3.469446951953614e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 2,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 3,
+        "area": 0.35355339059327384,
+        "missing_area": 6.245004513516506e-17,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      },
+      {
+        "face": 4,
+        "area": 0.29289321881345254,
+        "missing_area": 0.0,
+        "outside_area": 8.673617379884035e-18,
+        "overlap_area": 5.551115123125783e-17
+      },
+      {
+        "face": 5,
+        "area": 0.29289321881345254,
+        "missing_area": 4.261962743647812e-17,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 6,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 7,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 3.44902075543964e-17,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 8,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 9,
+        "area": 0.2322330470336312,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 10,
+        "area": 0.23223304703363123,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": -2.7755575615628914e-17
+      },
+      {
+        "face": 11,
+        "area": 0.2322330470336312,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 12,
+        "area": 0.29289321881345254,
+        "missing_area": 1.3877787807814457e-17,
+        "outside_area": 0.0,
+        "overlap_area": -5.551115123125783e-17
+      },
+      {
+        "face": 13,
+        "area": 0.2928932188134526,
+        "missing_area": 0.0,
+        "outside_area": 3.469446951953614e-18,
+        "overlap_area": 0.0
+      },
+      {
+        "face": 14,
+        "area": 0.17157287525381,
+        "missing_area": 0.0,
+        "outside_area": 0.0,
+        "overlap_area": 0.0
+      }
+    ],
+    "arithmetic_note": "Floating-point polygon unions and incidence residuals; not an interval/exact-arithmetic coverage certificate. Areas are not distances."
+  },
+  "local_optimality_interval": [
+    0.9699951984167031,
+    0.9699951984240177
+  ],
+  "membership_search": {
+    "status": "no_improvement_found",
+    "counts": {
+      "candidates": 2370,
+      "duplicates_or_incumbent": 532,
+      "certificate_rejected": 63,
+      "constraint_superset_pruned": 733,
+      "fixed_bound_pruned": 1567,
+      "tangent_bound_pruned": 7
+    },
+    "membership_changed": false,
+    "optimized_max_diameter": 0.9699951984240177,
+    "options": {
+      "max_rounds": 3,
+      "max_patch_size": 4,
+      "split_star_limit": 4,
+      "random_trials": 0,
+      "random_moves": 3,
+      "seed": 0,
+      "max_candidates": 20000,
+      "time_limit": 45.0,
+      "improvement_tol": 1e-08,
+      "maxiter": 1000,
+      "ftol": 1e-13,
+      "feasibility_tol": 1e-10,
+      "prune": true,
+      "polish_start": true
+    },
+    "elapsed_seconds": 2.194617033
+  },
+  "warning": "Floating-point bounds/checks, not exact or interval certificates. Coordinate optimization permits overlapping covering hulls."
+}

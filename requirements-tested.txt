@@ -1,0 +1,6 @@
+# Versions actually used in the repository-assembly test environment (Python 3.13.5).
+numpy==2.3.5
+scipy==1.17.0
+shapely==2.1.2
+sympy==1.14.0
+matplotlib==3.10.8

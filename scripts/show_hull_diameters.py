@@ -8,11 +8,11 @@ Native interactive view (no WebGL):
 Browser view:
     python show_hull_diameters.py r_dod_4_0966.txt --target-vertices 23 --open
 Static image:
-    python show_hull_diameters.py r_dod_4_0966.txt --hull 3 --png K3.png
+    python show_hull_diameters.py r_dod_4_0966.txt --hull 3 --diameters-only --png K3.png
 
-By default the output is one self-contained, interactive HTML file. No server or network
-connection is needed to view it. Drag to rotate; scroll to zoom. Select a hull,
-show its diameter or every overlong pair, and click a pair to isolate it.
+By default all hulls and all overlong pairs are displayed. Measurement segments are
+solid red lines. In the Matplotlib view the 3-D axes and in-plot text labels are off
+by default. The HTML output is self-contained and needs no server or network.
 
 Input: hull count, reference diameter, point count (the first three lines), then
 one Python-literal list of index lists and one Python-literal list of 3D points.
@@ -181,7 +181,7 @@ th:first-child, td:first-child { text-align: left; }
 <label><input id="surface" type="checkbox" checked> Transparent hull surfaces</label>
 <label><input id="wireframe" type="checkbox" checked> Hull edges</label>
 <label><input id="labels" type="checkbox"> All point numbers</label>
-<label><input id="lengths" type="checkbox" checked> Segment lengths</label>
+<label><input id="lengths" type="checkbox"> Segment lengths</label>
 <label id="reference-label"><input id="reference" type="checkbox" checked> Reference polyhedron wireframe</label>
 </div>
 <p id="webgl-notice" hidden></p>
@@ -320,7 +320,7 @@ function edgeTrace(mesh, name, reference) {
 function pointTrace(ids, endpoints) {
     return {type:"scatter3d", x:ids.map(i=>DATA.points[i][0]),
         y:ids.map(i=>DATA.points[i][1]), z:ids.map(i=>DATA.points[i][2]),
-        mode:(endpoints || $("labels").checked) ? "markers+text" : "markers",
+        mode:$("labels").checked ? "markers+text" : "markers",
         text:ids.map(i=>"p"+i), textposition:"top center", textfont:{size:endpoints ? 14 : 10},
         marker:{size:endpoints ? 6 : 2.5, symbol:endpoints ? "diamond" : "circle"},
         customdata:ids, showlegend:false,
@@ -355,7 +355,7 @@ function buildTraces(groups) {
                          `excess over d=${(p.length-currentThreshold).toPrecision(12)}`;
             traces.push({type:"scatter3d", x:[a[0],m[0],b[0]], y:[a[1],m[1],b[1]],
                 z:[a[2],m[2],b[2]], mode:"lines", name:label,
-                line:{width:7, dash:p === g.pairs[0] ? "solid" : "dash"},
+                line:{color:"red", dash:"solid"},
                 text:[info,info,info], hovertemplate:"%{text}<extra></extra>", showlegend:false,
                 meta:{kind:"measured-pair", hull:g.number, a:p.a, b:p.b, length:p.length}});
             if ($("lengths").checked) traces.push({type:"scatter3d", x:[m[0]], y:[m[1]], z:[m[2]],
@@ -488,16 +488,16 @@ def matplotlib_view(payload: dict, save_path: Path | None = None, show: bool = T
     rax = fig.add_axes([.03, .55, .19, .29])
     rax.set_title("Displayed hull", fontsize=11, loc="left")
     radios = RadioButtons(rax, choice_labels, active=choice_values.index(payload["initialHull"]))
-    cax = fig.add_axes([.03, .285, .19, .215])
-    check_labels = ["All overlong pairs", "Surface", "All point numbers", "Lengths", "Reference hull"]
+    cax = fig.add_axes([.03, .275, .19, .235])
+    check_labels = ["All overlong pairs", "Surface", "Point numbers", "Lengths", "Reference hull", "3D axes"]
     checks = CheckButtons(cax, check_labels,
-                          [payload["initialMode"] == "violations", True, False, True,
-                           payload["reference"] is not None])
+                          [payload["initialMode"] == "violations", True, False, False,
+                           payload["reference"] is not None, False])
     for label in checks.labels:
         label.set_fontsize(10)
     summary = "\n".join(f'K{g["number"]}: {g["diameter"]:.12f}\n'
                         f'    p{g["pairs"][0]["a"]} — p{g["pairs"][0]["b"]}' for g in groups)
-    fig.text(.03, .25, summary, va="top", fontsize=9, family="monospace", linespacing=1.25)
+    fig.text(.03, .235, summary, va="top", fontsize=9, family="monospace", linespacing=1.25)
     footer = fig.text(.28, .04, "", fontsize=10, va="bottom")
 
     def draw(_event=None):
@@ -508,8 +508,12 @@ def matplotlib_view(payload: dict, save_path: Path | None = None, show: bool = T
         for j, setter in enumerate((ax.set_xlim, ax.set_ylim, ax.set_zlim)):
             setter(center[j] - radius, center[j] + radius)
         ax.set_box_aspect((1, 1, 1))
-        ax.set_xlabel("x"); ax.set_ylabel("y"); ax.set_zlabel("z")
-        all_pairs, surface, labels, lengths, reference = checks.get_status()
+        all_pairs, surface, labels, lengths, reference, axes = checks.get_status()
+        if axes:
+            ax.set_axis_on()
+            ax.set_xlabel("x"); ax.set_ylabel("y"); ax.set_zlabel("z")
+        else:
+            ax.set_axis_off()
         choice = choice_values[choice_labels.index(radios.value_selected)]
         if choice == "all":
             chosen = groups
@@ -539,9 +543,7 @@ def matplotlib_view(payload: dict, save_path: Path | None = None, show: bool = T
                 a, b = p["a"], p["b"]
                 endpoint_ids.update((a, b))
                 segment = points[[a, b]]
-                maximum = p is g["pairs"][0]
-                ax.plot(*segment.T, linewidth=3.5 if maximum else 2.4,
-                        linestyle="-" if maximum else "--", zorder=10)
+                ax.plot(*segment.T, color="red", linestyle="-", zorder=10)
                 if lengths:
                     m = segment.mean(axis=0)
                     ax.text(*m, f'  {a}–{b}\n  {p["length"]:.9f}', fontsize=10, zorder=13)
@@ -553,14 +555,15 @@ def matplotlib_view(payload: dict, save_path: Path | None = None, show: bool = T
             if endpoint_ids:
                 ids = sorted(endpoint_ids)
                 ax.scatter(*points[ids].T, s=52, marker="D", depthshade=False, zorder=11)
-            for i in sorted(all_ids if labels else endpoint_ids):
-                ax.text(*points[i], f'  p{i}', fontsize=11 if i in endpoint_ids else 8,
-                        fontweight="bold" if i in endpoint_ids else "normal", zorder=12)
+            if labels:
+                for i in sorted(all_ids):
+                    ax.text(*points[i], f'  p{i}', fontsize=11 if i in endpoint_ids else 8,
+                            fontweight="bold" if i in endpoint_ids else "normal", zorder=12)
         heading = " + ".join(f'K{g["number"]}' for g in chosen) or "No offending hulls"
         ax.set_title(heading + (" — all overlong pairs" if all_pairs else " — maximum diameter"), pad=12)
         nbad = sum(p["length"] > threshold + tolerance for g in chosen for p in g["pairs"])
         footer.set_text(f'{len(displayed)} segment(s) displayed; {nbad} overlong pair(s) in the selected hulls.\n'
-                        'Drag the 3D view to rotate. Thick chords show the measured pairs. Indices are zero-based.')
+                        'Drag the 3D view to rotate. Red chords show the measured pairs. Indices are zero-based.')
         # Useful to callers/tests; these are the actual rendered measurement records.
         fig._diameter_displayed_pairs = displayed
         fig.canvas.draw_idle()
@@ -585,8 +588,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--output", "-o", type=Path, help="HTML path (default: <input stem>_diameters.html)")
     parser.add_argument("--threshold", type=float, help="Diameter limit (default: value on line 2)")
     parser.add_argument("--tol", type=float, default=1e-6, help="Absolute flagging margin (default: 1e-6)")
-    parser.add_argument("--hull", default="auto", help="Initial hull: 1, 2, ..., all, bad, or auto (first bad hull)")
-    parser.add_argument("--all-pairs", action="store_true", help="Initially show every overlong pair")
+    parser.add_argument("--hull", default="all", help="Initial hull: 1, 2, ..., all, bad, or auto (default: all)")
+    pair_mode = parser.add_mutually_exclusive_group()
+    pair_mode.add_argument("--all-pairs", dest="all_pairs", action="store_true",
+                           help="Initially show every overlong pair (default)")
+    pair_mode.add_argument("--diameters-only", dest="all_pairs", action="store_false",
+                           help="Initially show only the maximum-diameter pair of each displayed hull")
+    parser.set_defaults(all_pairs=True)
     parser.add_argument("--target-vertices", type=int, metavar="N",
                         help="Optional reference wireframe: convex hull of the first N points")
     parser.add_argument("--csv", type=Path, help="Also write the overlong pairs to CSV")

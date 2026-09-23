@@ -1,5 +1,3 @@
-#Problem
-
 *What is the largest constant $`d_{3,4}`$ such that any set of unit diameter in three-dimensional Euclidean space can be covered by four sets of diameter at most $`d_{3,4}`$?*
 
 This repository presents numerical results for this problem. The main method consists in partitioning a universal cover or the polyhedra forming a universal covering system. As the universal cover, the cover found by V.V. Makeev is used, i.e., a rhombic dodecahedron truncated by three planes with inradius $`1/2`$.

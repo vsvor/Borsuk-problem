@@ -8,7 +8,7 @@ In the paper by Alexander Tolmachev, Dmitry Protasov and Vsevolod Voronov,
 *Coverings of planar and three-dimensional sets with subsets of smaller diameter*,
 Discrete Applied Mathematics 320 (2022), 270–281,
 [arXiv:2210.12394](https://arxiv.org/abs/2210.12394),
-[DOI:10.1016/j.dam.2022.06.016](https://doi.org/10.1016/j.dam.2022.06.016) in the numerical results on 3D partitions some errors were made: partitioning the truncated rhombic dodecahedron using optimization of random Voronoi cells actually provides only the bound $`d_{3,4} \leq 0.9697\ldots`$. However, it is possible to prove even better estimate with the same algorithm. To obtain the bound $`d_{3,4} \leq 0.9535\ldots`$, one needs to consider partitions of two polyhedra (A and B, see below), at least one of which certainly covers any set of unit diameter. Moreover, a partition by six planes can be performed somewhat better than stated in the paper, $`d_{3,4} \leq 0.9728\ldots`$.
+[DOI:10.1016/j.dam.2022.06.016](https://doi.org/10.1016/j.dam.2022.06.016) in the numerical results on 3D partitions some errors were made: partitioning the truncated rhombic dodecahedron using optimization of random Voronoi cells actually provides only the bound $`d_{3,4} \leq 0.9697\ldots`$. However, it is possible to prove even better estimate with the same algorithm. To obtain the bound $`d_{3,4} \leq 0.965399\ldots`$, one needs to consider partitions of two polyhedra (A and B, see below), at least one of which certainly covers any set of unit diameter. Moreover, a partition by six planes can be performed somewhat better than stated in the paper, $`d_{3,4} \leq 0.9728\ldots`$.
 
 New versions of the programs, additional optimization algorithms, optimized partitions, and this repository were prepared with GPT-6 Astra. The original version is provided in the legacy folder.
 
@@ -41,7 +41,7 @@ The 3-truncation rows have 23 fixed target vertices.
 | [Symmetric 6-TRD](data/symmetric/six_trd/) | 53 | 0.9635512424574932 | 0.963551242461420 |
 
 The last column is obtained by replacing each exact raw hull inequality
-$`n·x \leq h`$ with $`n·x <= h + 10^-12 ||n||_1`$, enumerating the resulting vertices,
+$`n·x \leq h`$ with $`n·x <= h + 10^{-12} \|n\|_1`$, enumerating the resulting vertices,
 and checking their actual diameters. These are changed sets, not an acceptance
 tolerance. All registered padded-cover certificates have **exactly zero missing volume** in
 full three-dimensional inclusion–exclusion. See [certificates/current](certificates/current/)
@@ -54,7 +54,7 @@ but those assigned pieces need not be convex.
 
 The bound for the rhombic dodecahedron truncated by six planes (6-TRD) actually means the best result that can be obtained by this method, by cutting something off from the rhombic dodecahedron with planes perpendicular to the axes. At least one of the covers will necessarily contain 6-TRD.
 
-We also note that the optimality of the presented partitions (if they are optimal) requires a separate study. It is only asserted that these partitions can be found using the presented programs in a few minutes (or a few hours in the original version of the code), and that with a number of restarts of `\sim 10^6` we had no further improvements. Note that GPT-6 quickly proved that 0.9697... is close to the optimum for 3-TRD, namely, the lower bound is 0.96959... See [3-TRD lower bound](trd3_lower_bound/)
+We also note that the optimality of the presented partitions (if they are optimal) requires a separate study. It is only asserted that these partitions can be found using the presented programs in a few minutes (or a few hours in the original version of the code), and that with a number of restarts of $`\sim 10^6`$ we had no further improvements. Note that GPT-6 quickly proved that 0.9697... is close to the optimum for 3-TRD, namely, the lower bound is 0.96959... See [3-TRD lower bound](trd3_lower_bound/)
 
 
 ### Exact rational/symbolic six-plane versions
@@ -94,7 +94,7 @@ are unchanged. Unit tetrahedral altitude would instead divide all lengths by 2.
 
 These use 2,000 starts per target, followed by tighter polishing. Numerical
 searches need not preserve a solid's symmetries. All six numerical records also
-have full exact 15-intersection volume checks with 10^-12 facet padding. The
+have full exact 15-intersection volume checks with $`10^{-12}`$ facet padding. The
 separate elementary/algebraic constructions require **no padding**.
 
 The icosahedral result simplifies to **edge midpoints, face centroids, and the
@@ -136,7 +136,7 @@ R = { (x,y,z): |x|+|y| <= 1/sqrt(2),
 P3 = R intersect {x <= 1/2, y <= 1/2, z <= 1/2}.
 ```
 
-There are no additional $`x,y,z >= -1/2` inequalities in `P3`$.
+There are no additional $`x,y,z >= -1/2`$ inequalities in P3.
 Its volume is exactly $`7/2 - 2*sqrt(2)`$.
 
 The balanced targets use a different orientation:
@@ -152,8 +152,8 @@ $`-1/2+b <= x <= 1/2+a`$. The two cases are not obtained merely by changing a fi
 label: their target vertices and incidence models differ.
 
 The six planes are **pairwise interfaces**, not six complete cuts through every
-cell. For four score vectors `a_i`, cell i is
-$`P3 intersect {(a_j-a_i)·x <= 0: j != i}`$. Maximizing a score proves coverage;
+cell. For four score vectors $`a_i`$, cell i is
+P3 intersect $`{(a_j-a_i)·x <= 0: j != i}`$. Maximizing a score proves coverage;
 opposite pairwise inequalities separate the interiors.
 
 ## Quick start

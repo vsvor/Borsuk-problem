@@ -34,8 +34,8 @@ The 3-truncation rows have 23 fixed target vertices.
 | [3-truncated: six-plane construction](data/three_truncations/six_planes/) | 42 | 0.9728813196052167 | 0.972881319609817 |
 | [3-truncated: locally relaxed six-plane model](data/three_truncations/six_planes_relaxed/) | 42 | 0.9699951984240177 | 0.969995198428698 |
 | [3-truncated: best retained unrestricted cover](data/three_truncations/best_cover/) | 43 | 0.9697677618614492 | 0.969767761865705 |
-| [Cover A](data/balanced/dummy/) | 43 | 0.9653991786498369 | 0.965399178654095 |
-| [Cover B](data/balanced/upper/) | 47 | 0.9653991786503513 | 0.965399178654163 |
+| [Cover A](data/balanced/dummy/) | 43 | **0.9653991786498369** | 0.965399178654095 |
+| [Cover B](data/balanced/upper/) | 47 | **0.9653991786503513** | 0.965399178654163 |
 | [Symmetric 6-TRD](data/symmetric/six_trd/) | 53 | 0.9635512424574932 | 0.963551242461420 |
 
 The last column is obtained by replacing each exact raw hull inequality
@@ -84,7 +84,7 @@ Every supporting facet plane is distance **1/2 from the origin**.
 | Regular octahedron | 6 / 8 | 1.224744871391589 |  **Yes** |
 | 3-truncated octahedron | 6 / 8 | **0.987727022161782** | No |
 | Regular dodecahedron | 20 / 12 | 1.044923649675676 |  No |
-| Regular icosahedron | 12 / 20 | **0.927050983124843** | No claim |
+| Regular icosahedron | 12 / 20 | 0.927050983124843 | No claim |
 
 These use 2,000 starts per target, followed by tighter polishing. Numerical
 searches need not preserve a solid's symmetries. All six numerical records also
